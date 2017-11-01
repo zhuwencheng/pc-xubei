@@ -1,0 +1,43 @@
+.friend-link .friendlink-top {
+  overflow: hidden;
+}
+.friend-link .friendlink-top .t-text {
+  background: url("../images-site/friendlink-top.png") center center no-repeat;
+  height: 87px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 53px 0 0 90px;
+  text-align: left;
+}
+.friend-link .friendlink-content {
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding: 20px 40px 80px;
+  text-align: center;
+  line-height: 1.8em;
+}
+.friend-link .friendlink-content dl {
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 50px;
+}
+.friend-link .friendlink-content dl dt {
+  float: left;
+  width: 230px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.friend-link .friendlink-content dl dd {
+  margin-left: 260px;
+  color: #666666;
+}
+.friend-link .friendlink-content dl dd.title {
+  color: #333333;
+  margin-bottom: 10px;
+}
+.friend-link .friendlink-content dl dd.bd {
+  border-bottom: 1px dashed #e1e3e8;
+  padding-bottom: 20px;
+}

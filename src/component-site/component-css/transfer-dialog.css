@@ -1,0 +1,66 @@
+.transferdialog {
+  padding: 30px 30px 0;
+  color: #666c75;
+}
+.transferdialog .hx-table-type1 {
+  table-layout: fixed;
+}
+.transferdialog .hx-table-type1 th {
+  font-weight: bold;
+}
+.transferdialog .hx-table-type1 td {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.transferdialog .exit-form {
+  line-height: 28px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.transferdialog .exit-form .error-bd {
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  color: #f15d59;
+}
+.transferdialog .exit-form input[type=checkbox] {
+  vertical-align: middle;
+}
+.transferdialog .exit-form .notice {
+  background: url("../../images-site/14X14notice-icon.png") no-repeat;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 0 2px;
+  margin-top: -1px;
+  cursor: pointer;
+}
+.transferdialog .exit-form label {
+  width: 250px;
+  display: inline-block;
+  padding-right: 25px;
+  text-align: right;
+}
+.transferdialog .exit-form label.auto {
+  width: auto;
+}
+.transferdialog .exit-form input[type="text"] {
+  line-height: 38px;
+  border: 1px solid #e1e3e8;
+  width: 120px;
+  padding: 0 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.transferdialog .btn-wrapper {
+  padding-top: 14px;
+  border-top: 1px dashed #e1e3e8;
+}
+.transferdialog .btn-wrapper .btn {
+  width: 110px;
+  margin: 0 20px;
+}

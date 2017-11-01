@@ -1,0 +1,76 @@
+@import "../var";
+.hxuc-leftsidebar{
+  width: 220px;
+  overflow: hidden;
+  zoom: 1;
+  /*菜单*/
+  .hxabout-left-menu{
+    background: @fff;
+    dt{
+      line-height: 50px;
+      padding-left: 30px;
+      cursor: pointer;
+      height: 50px;
+      background: #f5f6f8;
+      border-bottom: 1px solid #f1f3f6;
+      span{
+        display: inline-block;
+        vertical-align: middle;
+        height: 50px;
+        width: 25px;
+        background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+        margin-right: 5px;
+        &.p1{
+          background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+        }
+        &.p2{
+          background: url("../../images-site/hxuc-menu-02.png") no-repeat left center;
+        }
+        &.p3{
+          background: url("../../images-site/hxuc-menu-03.png") no-repeat left center;
+        }
+        &.p4{
+          background: url("../../images-site/hxuc-menu-04.png") no-repeat left center;
+        }
+      }
+    }
+    dd{
+      height: 40px;
+      overflow: hidden;
+      border-bottom: 1px solid #f1f3f6;
+      &.active{
+        a{
+          background-color: @btnblue;
+          color: @fff;
+        }
+      }
+      a{
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+        overflow: hidden;
+        text-indent: 65px;
+        background: @fff;
+        color: @color6c;
+        &:hover{
+          background-color: @btnblue;
+          color: @fff;
+        }
+      }
+    }
+  }
+  /*菜单*/
+}
+.hxuc-rightwrapper{
+
+  margin-left: 240px;
+  overflow: hidden;
+  zoom: 1;
+  text-align: left;
+  .uc-rhd{
+    padding-bottom: 10px;
+    border-bottom: 1px solid @borderColor;
+    font-size: 18px;
+  }
+}

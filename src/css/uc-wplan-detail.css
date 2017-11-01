@@ -1,0 +1,73 @@
+.uc-wplan-datail-bd {
+  overflow: hidden;
+  padding-top: 40px;
+}
+.uc-wplan-datail-bd .ucwp-des {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e3e8;
+}
+.uc-wplan-datail-bd .ucwp-des ul {
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.uc-wplan-datail-bd .ucwp-des ul li {
+  width: 19%;
+  border-right: 1px dashed #e1e3e8;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  color: #226eed;
+}
+.uc-wplan-datail-bd .ucwp-des ul li .des {
+  color: #666666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.uc-wplan-datail-bd .ucwp-des ul li .yellow {
+  color: #f9b03a;
+}
+.uc-wplan-datail-bd .ucwp-des ul li .status {
+  font-size: 18px;
+  color: #224d83;
+  margin-top: 23px;
+}
+.uc-wplan-datail-bd .ucwp-oper {
+  font-size: 12px;
+  line-height: 30px;
+  color: #666666;
+}
+.uc-wplan-datail-bd .ucwp-oper dl {
+  float: right;
+  line-height: 45px;
+  padding-right: 90px;
+}
+.uc-wplan-datail-bd .ucwp-list h3 {
+  font-weight: normal;
+  line-height: 40px;
+  font-size: 14px;
+}
+.uc-wplan-datail-bd .ucwp-list .contract-menu {
+  position: relative;
+}
+.uc-wplan-datail-bd .ucwp-list .contract-menu span {
+  color: #1373ee;
+  background: url("../images-site/arraw-blue.png") right center no-repeat;
+  padding-right: 15px;
+}
+.uc-wplan-datail-bd .ucwp-list .contract-menu .drop-menu {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  overflow: hidden;
+  border: 1px solid #e1e3e8;
+  background: #ffffff;
+  padding: 0 5px;
+  text-align: center;
+  z-index: 10;
+}
+.uc-wplan-datail-bd .ucwp-list .contract-menu .drop-menu li {
+  width: 90px;
+  border-bottom: 1px dashed #e1e3e8;
+  line-height: 30px;
+}

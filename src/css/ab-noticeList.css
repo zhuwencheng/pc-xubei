@@ -1,0 +1,30 @@
+.noticeList .noticeList-top {
+  overflow: hidden;
+}
+.noticeList .noticeList-top .t-text {
+  background: url("../images-site/notice-top.png") center center no-repeat;
+  height: 87px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 53px 0 0 90px;
+  text-align: left;
+}
+.noticeList .noticeList-content {
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding: 40px 80px 80px;
+}
+.noticeList .noticeList-content p {
+  line-height: 55px;
+}
+.noticeList .noticeList-content p a {
+  color: #666666;
+}
+.noticeList .noticeList-content p a:hover {
+  color: #4e7bd4;
+}
+.noticeList .noticeList-content p a .time {
+  float: right;
+  color: #999999;
+}

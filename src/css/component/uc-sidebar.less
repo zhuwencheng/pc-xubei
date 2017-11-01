@@ -1,0 +1,232 @@
+@import "../var";
+.hxuc-leftsidebar{
+  width: 220px;
+  overflow: hidden;
+  zoom: 1;
+  /*头像区域*/
+  .hxuc-head-wrapper{
+    background: @fff;
+    padding: 20px 10px;
+    position: relative;
+    .user-head{
+      overflow: hidden;
+      zoom: 1;
+      padding: 0 10px;
+      dt{
+        width: 82px;
+        height: 82px;
+        background: url("../../images-site/user-head-bj.png") center center no-repeat;
+      }
+      dd{
+        margin-left: 100px;
+        line-height: 30px;
+        font-size: 12px;
+        &.user-level{
+          margin-left: 95px;
+          border-radius: 100px;
+          line-height: 23px;
+          width: 35px;
+          background: url("../../images-site/hxuc-level1.png") 0 center no-repeat;
+          padding-left: 28px;
+          color: @color666;
+          cursor: pointer;
+          &.level2{
+            background-image: url("../../images-site/hxuc-level2.png")
+          }
+          &.level3{
+            background-image: url("../../images-site/hxuc-level3.png")
+          }
+          &.level4{
+            background-image: url("../../images-site/hxuc-level4.png")
+          }
+          &.level5{
+            background-image: url("../../images-site/hxuc-level5.png")
+          }
+          &.level6{
+            background-image: url("../../images-site/hxuc-level6.png")
+          }
+          &.level7{
+            background-image: url("../../images-site/hxuc-level7.png")
+          }
+        }
+      }
+    }
+    .user-matter-msg{
+      background: @fff;
+      //border: @tipborder2 1px solid;
+      box-shadow: 0 10px 10px #cbd1d9;
+      border-radius: 4px;
+      position: relative;
+      font-size: 12px;
+      line-height: 34px;
+      padding: 0 5px 0px 10px;
+      color: @color666;
+      position: absolute;
+      left: 5px;
+      right:5px;
+      top: 78px;
+      zoom: 1;
+      .close{
+        float: right;
+        font-size: 24px;
+        cursor: pointer;
+        color: @color999;
+        width: 24px;
+        background: url("../../images-site/close11X11.png") center center no-repeat;
+        display: inline-block;
+        height: 34px;
+        vertical-align: middle;
+      }
+      .arrow{
+        background: url("../../images-site/arraw-uc.png") center center no-repeat;
+        width: 14px;
+        height: 7px;
+        position: absolute;
+        left: 70px;
+        bottom: -7px;
+      }
+    }
+    .user-matters{
+      padding: 20px 10px 0;
+      overflow: hidden;
+      zoom: 1;
+      li{
+        width: 25px;
+        height: 25px;
+        background: @fff;
+        margin: 0 5px;
+        display: block;
+        float: left;
+        background: url("../../images-site/uc-status-bj.png") no-repeat;
+        cursor: pointer;
+        &.active{
+          cursor: default;
+        }
+        &.phone{
+          background-position: 0px -53px;
+          &.active{
+            background-position: -4px -6px;
+          }
+        }
+        &.person{
+          background-position: -46px -52px;
+          &.active{
+            background-position: -46px -6px;
+          }
+        }
+        &.card{
+          background-position: -91px -52px;
+          &.active{
+            background-position: -91px -6px;
+          }
+        }
+        &.mes{
+          background-position: -135px -53px;
+          &.active{
+            background-position: -135px -6px;
+          }
+        }
+        &.psd{
+          background-position: -177px -51px;
+          &.active{
+            background-position: -177px -5px;
+          }
+        }
+      }
+    }
+    .tool-btn{
+      overflow: hidden;
+      zoom: 1;
+      margin-top: 10px;
+      padding: 15px 20px 0px;
+      border-top: 1px dashed @borderColor;
+      span{
+        width: 40px;
+      }
+    }
+  }
+  /*头像区域*/
+  /*菜单*/
+  .hxuc-left-menu{
+    margin-top: 20px;
+    background: @fff;
+    dt{
+      line-height: 50px;
+      padding-left: 30px;
+      cursor: pointer;
+      height: 50px;
+      background: #f5f6f8 url("../../images-site/hxuc-down.png") 185px center no-repeat;
+      border-bottom: 1px solid #f1f3f6;
+      &.up{
+        background-image: url("../../images-site/hxuc-up.png");
+      }
+      span{
+        display: inline-block;
+        vertical-align: middle;
+        height: 50px;
+        width: 25px;
+        background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+        margin-right: 5px;
+        &.p1{
+          background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+        }
+        &.p2{
+          background: url("../../images-site/hxuc-menu-02.png") no-repeat left center;
+        }
+        &.p3{
+          background: url("../../images-site/hxuc-menu-03.png") no-repeat left center;
+        }
+        &.p4{
+          background: url("../../images-site/hxuc-menu-04.png") no-repeat left center;
+        }
+      }
+    }
+    dd{
+      height: 40px;
+      overflow: hidden;
+      border-bottom: 1px solid #f1f3f6;
+      &.active{
+        a{
+          background-color: @btnblue;
+          color: @fff;
+        }
+      }
+      a{
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+        overflow: hidden;
+        text-indent: 65px;
+        background: @fff;
+        color: @color6c;
+        &:hover{
+          background-color: @btnblue;
+          color: @fff;
+        }
+        .hxuc-num{
+          line-height: 15px;
+          background: @red3;
+          color: @fff;
+          display: inline-block;
+          padding: 0 5px;
+          border-radius: 100px;
+          margin-left: 5px;
+          text-indent: 0;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  /*菜单*/
+}
+.hxuc-rightwrapper{
+  margin-left: 240px;
+  overflow: hidden;
+  zoom: 1;
+  .uc-rhd{
+    padding-bottom: 10px;
+    border-bottom: 1px solid @borderColor;
+    font-size: 18px;
+  }
+}

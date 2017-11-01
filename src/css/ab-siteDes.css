@@ -1,0 +1,101 @@
+.siteDes .siteDes-top {
+  overflow: hidden;
+}
+.siteDes .siteDes-top .t-text {
+  background: url("../images-site/about-us-top.png") center center no-repeat;
+  height: 100px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 42px 0 0 80px;
+}
+.siteDes .siteDes-top .company-des {
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+.siteDes .siteDes-top .company-des .hd {
+  display: inline-block;
+  margin: 0 auto;
+  border-bottom: 2px solid #82a7f0;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.siteDes .siteDes-top .company-des p {
+  text-align: left;
+  line-height: 2em;
+  margin-bottom: 20px;
+  color: #666666;
+  text-indent: 2em;
+}
+.siteDes .company-honor {
+  overflow: hidden;
+  background: #f8fafe;
+  text-align: center;
+  padding: 20px 0;
+}
+.siteDes .company-honor .hd {
+  display: inline-block;
+  margin: 0 auto;
+  border-bottom: 2px solid #82a7f0;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.siteDes .company-honor .bd {
+  padding: 20px 0 20px 20px;
+  overflow: hidden;
+}
+.siteDes .company-honor .bd dl {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+.siteDes .company-honor .bd dl dd {
+  padding: 5px;
+  line-height: 1.8em;
+  color: #a1abbb;
+  font-size: 12px;
+  text-align: left;
+}
+.siteDes .company-active {
+  overflow: hidden;
+  background: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+.siteDes .company-active .hd {
+  display: inline-block;
+  margin: 0 auto;
+  border-bottom: 2px solid #82a7f0;
+  line-height: 30px;
+}
+.siteDes .company-active .bd {
+  padding: 40px 20px;
+}
+.siteDes .company-active .bd .slogan {
+  width: 50px;
+  font-size: 24px;
+  color: #5a9bee;
+  background: #c7e6ff;
+  float: right;
+  padding: 60px 45px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 1.67em;
+}
+.siteDes .company-active .bd ul {
+  margin-right: 140px;
+  overflow: hidden;
+  zoom: 1;
+}
+.siteDes .company-active .bd li {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.siteDes .company-active .bd li img {
+  width: 220px;
+  height: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+}

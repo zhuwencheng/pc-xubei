@@ -1,0 +1,73 @@
+/*分页*/
+.hx-pagination {
+  padding: 10px 0;
+  font-size: 12px;
+}
+.hx-pagination .page-numtext {
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+}
+.hx-pagination.hasborder span {
+  border-color: #e1e3e8 ;
+}
+.hx-pagination span {
+  line-height: 30px;
+  border: 1px solid transparent;
+  margin-right: 7px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 0 15px;
+  color: #666666;
+  text-align: center;
+}
+.hx-pagination span:hover {
+  background: #1373ee;
+  color: #fff;
+  cursor: pointer;
+}
+.hx-pagination span.disabled:hover {
+  cursor: not-allowed;
+  background: #ffffff;
+  color: #666666;
+}
+.hx-pagination.linepage span {
+  border-color: #e1e3e8 !important;
+}
+.hx-pagination .pre,
+.hx-pagination .next {
+  width: 30px;
+  padding: 0;
+}
+.hx-pagination .num {
+  width: auto;
+  min-width: 18px;
+  padding: 0 6px;
+}
+.hx-pagination .num.active {
+  background: #1373ee;
+  border-color: #1373ee;
+  color: #fff;
+  cursor: default;
+}
+.hx-pagination .pre {
+  background: #ffffff url("../images-site/pager_arrows.png") no-repeat -39px -27px;
+}
+.hx-pagination .pre:hover {
+  background: #1373ee url("../images-site/pager_arrows.png") no-repeat -39px -66px;
+}
+.hx-pagination .pre.disabled:hover {
+  cursor: not-allowed;
+  background: #ffffff url("../images-site/pager_arrows.png") no-repeat -39px -27px;
+}
+.hx-pagination .next {
+  background: #ffffff url("../images-site/pager_arrows.png") no-repeat -109px -27px;
+}
+.hx-pagination .next:hover {
+  background: #1373ee url("../images-site/pager_arrows.png") no-repeat -109px -66px;
+}
+.hx-pagination .next.disabled:hover {
+  cursor: not-allowed;
+  background: #ffffff url("../images-site/pager_arrows.png") no-repeat -109px -27px;
+}
+/*分页 end*/

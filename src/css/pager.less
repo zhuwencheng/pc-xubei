@@ -1,0 +1,83 @@
+@import "var.less";
+/*分页*/
+.hx-pagination{
+  padding: 10px 0;
+  font-size: 12px;
+  .page-numtext{
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  &.hasborder{
+    span{
+      border-color: #e1e3e8 ;
+    }
+  }
+  span{
+    line-height: 30px;
+    border: 1px solid transparent;
+    margin-right: 7px;
+    background: @fff;
+    display: inline-block;
+    padding: 0 15px;
+    color: @color666;
+    text-align: center;
+    &:hover{
+      background: @blue1;
+      color: #fff;
+      cursor: pointer;
+    }
+    &.disabled{
+      &:hover{
+        cursor: not-allowed;
+        background: @fff;
+        color: @color666;
+      }
+    }
+  }
+  &.linepage{
+    span{
+      border-color: @borderColor  !important;
+    }
+  }
+  .pre,.next{
+    width: 30px;
+    padding: 0;
+  }
+  .num{
+    width: auto;
+    min-width: 18px;
+    padding: 0 6px;
+    &.active{
+      background: @blue1;
+      border-color: @blue1;
+      color: #fff;
+      cursor: default;
+    }
+  }
+  .pre{
+    background: @fff url("../images-site/pager_arrows.png") no-repeat -39px -27px;
+    &:hover{
+      background: @blue1 url("../images-site/pager_arrows.png") no-repeat -39px -66px;
+    }
+    &.disabled{
+      &:hover{
+        cursor: not-allowed;
+        background: @fff url("../images-site/pager_arrows.png") no-repeat -39px -27px;
+      }
+    }
+  }
+  .next{
+    background: @fff url("../images-site/pager_arrows.png") no-repeat -109px -27px;
+    &:hover{
+      background: @blue1 url("../images-site/pager_arrows.png") no-repeat -109px -66px;
+    }
+    &.disabled{
+      &:hover{
+        cursor: not-allowed;
+        background: @fff url("../images-site/pager_arrows.png") no-repeat -109px -27px;
+      }
+    }
+  }
+}
+/*分页 end*/

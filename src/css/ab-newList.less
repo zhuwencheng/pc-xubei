@@ -1,0 +1,74 @@
+@import "../css-site/var";
+.newList{
+  .newList-top{
+    overflow: hidden;
+    .t-text{
+      background: url("../images-site/new-top.png") center center no-repeat;
+      height: 87px;
+      color: @fff;
+      line-height: 2em;
+      padding: 53px 0 0 90px;
+      text-align: left;
+      &.industryTrends{
+        background-image: url("../images-site/industrytrends-top.png");
+      }
+    }
+  }
+  .newList-content{
+    background: @fff;
+    overflow: hidden;
+    zoom: 1;
+    padding: 20px 40px 80px;
+    text-align: left;
+    line-height: 1.8em;
+    dl{
+      text-align: left;
+      overflow: hidden;
+      zoom: 1;
+      margin-top: 50px;
+      dt{
+        float: left;
+        width: 200px;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      dd{
+        margin-left: 230px;
+        color: @color666;
+        cursor: pointer;
+        &.title{
+          color: @color333;
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
+        &.time{
+          color: @colorbbb;
+          border-bottom: 1px solid @borderColor;
+          margin-bottom: 15px;
+          line-height: 30px;
+          font-size: 12px;
+          span{
+            margin-left: 20px;
+          }
+        }
+        &.bd{
+        }
+      }
+    }
+    p{
+      line-height: 55px;
+      a{
+        color: @color666;
+        &:hover{
+          color: @linkblue;
+        }
+        .time{
+          float: right;
+          color: @color999;
+        }
+      }
+
+    }
+  }
+
+}

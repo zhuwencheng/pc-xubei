@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="汉金所,汉信,互联网理财,互联网财富管理,安全理财,理财平台">
+    <meta name="description" content="汉金所(www.hanxinbank.com)-武汉国资委控股的互联网金融平台，为用户提供高收益、安全有保障的理财服务，让大众理财更安全、更便捷">
+    <title>汉金所-国资控股互联网金融平台，投资理财产品就选汉金所</title>
+    <link rel="icon" href="..2/images-site/favicon.ico"/>
+    <link href="../css-site/basic.css" rel="stylesheet" type="text/css">
+    <!--首页布局样式 start-->
+    <link href="../css-site/home-main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="hx-component-header" data-des="组件" activeNav="0"></div>
+
+
+
+<!--news start-->
+<div class="mgt-20 w1140 hidden">
+    <div class="fl hx-news-card">
+        <div class="hd-type1">
+            <a href="http://www.hanxinbank.com/new/newList.html?articlecategoryid=3" class="fr f12">更多 ></a>
+            <span class="title">媒体报道</span>
+        </div>
+        <dl>
+            <dt><a href="http://www.hanxinbank.com/new/newList.html?articlecategoryid=3"><img
+                    src="http://pic.hanxinbank.com/95D02897A89CB0DA4D8BC55A728D570B.jpg"/></a></dt>
+            <dd><span>2017-08-01</span>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=602">汉金所携手顶级大数据巨头伙伴，布局科技金融
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=593"><span>2017-07-21</span>网贷监管措施紧锣密鼓出台 平台合规化步伐纷至沓来
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=580"><span>2017-07-07</span>汉金所引入优质小额分散资产 助力中小微企业经济发展
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=485"><span>2017-03-30</span>汉金所：收益率下降是大势所趋 未来我们会坚持稳健发展
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=484"><span>2017-03-30</span>汉金所：近期上线银行存管 标的真实性是生存基础
+                </a></dd>
+        </dl>
+    </div>
+    <div class="fr hx-news-card">
+        <div class="hd-type1">
+            <a href="http://www.hanxinbank.com/new/industryTrends.html?articlecategoryid=6" class="fr f12">更多 ></a>
+            <span class="title">行业动态</span>
+        </div>
+        <dl>
+            <dt><a href="http://www.hanxinbank.com/new/industryTrends.html?articlecategoryid=6"><img
+                    src="http://pic.hanxinbank.com/EEB790115DB9A68C5F36CD81B2E6D861.jpg"/></a></dt>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=614"><span>2017-08-11</span>芝麻、腾讯借道信用分争霸征信江湖 金融场景、征信数据发布分散亟待统一
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=613"><span>2017-08-11</span>印度“支付宝”要做社交 支付和社交或许本来就是一对儿
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=589"><span>2017-07-18</span>习近平：加强互金监管 设金融稳定发展委员会
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=573"><span>2017-06-30</span>网贷存管银行属地化标准未统一 有平台或移居中西部
+                </a></dd>
+            <dd>
+                <a href="http://www.hanxinbank.com/new/newsDetail.html?noticeId=572"><span>2017-06-30</span>互联网金融竞技下半场的焦点在优质资产端
+                </a></dd>
+        </dl>
+    </div>
+</div>
+
+<!--news end-->
+
+<!--友情链接 start-->
+
+<!--友情链接 end-->
+<div class="hx-component-footer" data-des="组件"></div>
+<div class="hx-component-siderbar" data-des="组件"></div>
+</body>
+<script src="../js-site/require.min.js"></script>
+<script src="../js-site/re-config.js"></script>
+<script src="../js-site/home-main.js"></script>
+
+<script id="bo-template" type="text/x-handlebars-template">
+    <p class="f18">{{firstLabel}}</p>
+    <p class="f34 mgt-10">{{secondLabel}}<span class="f16">%</span></p>
+    <p>历史年化利率</p>
+    <p class="mgt-20">{{thirdLabel}}理财 | {{fourthLabel}}元起投</p>
+    {{#compare type 1}}
+    <a href="http://www.hanxinbank.com/new/borrowDetail.html?borrowid={{borId}}" class="btn mgt-20">立即抢购</a>
+    {{else}}
+    <a href="http://www.hanxinbank.com/new/productDetail.html?productId={{borId}}" class="btn mgt-20">立即抢购</a>
+    {{/compare}}
+
+</script>
+
+
+
+<!--Handlebars.js模版 散标-->
+<script id="borrow-template" type="text/x-handlebars-template">
+    {{#each borrowInfos}}
+    {{#compare status 4}}
+    <tr data-href="borrowDetail.html?borrowid={{id}}">
+        <td class="t-l">{{borrowTitle}}
+
+            {{#compare borrowLevel 1}}
+            <em class="l-t-des">新手专享</em>
+            {{/compare}}
+
+        </td>
+        <td class="c-blue"><span class="f34">{{yield}}</span>%
+            {{#ifAddtion additional}}
+            +{{additional}}%
+            {{/ifAddtion}}
+        </td>
+        <td>{{borrowDayStr}}</td>
+        <td>{{residualAmount}}元</td>
+        <td class="c-blue link">立即抢购>
+        </td>
+    </tr>
+
+    {{else }}
+    <tr data-href="borrowDetail.html?borrowid={{id}}" class="bluegray">
+        <td class="t-l">{{borrowTitle}}
+
+            {{#compare borrowLevel 1}}
+            <em class="l-t-des">新手专享</em>
+            {{/compare}}
+
+        </td>
+        <td><span class="f34">{{yield}}</span>%
+            {{#ifAddtion additional}}
+            +{{additional}}%
+            {{/ifAddtion}}
+        </td>
+        <td>{{borrowDayStr}}</td>
+        <td>{{residualAmount}}元</td>
+        <td>{{statusDesc status}}></td>
+    </tr>
+    {{/compare}}
+
+    {{/each}}
+</script>
+
+
+<!--Handlebars.js模版 省心计划-->
+
+
+<script id="smart-template" type="text/x-handlebars-template">
+    {{#each this}}
+
+    {{#if @last}}
+    <!--<div class="wp-card mgr-0" data-href="productDetail.html?productId={{id}}">-->
+    <div class="wp-card" data-href="productDetail.html?productId={{id}}">
+        <input type="hidden" value="{{id}}">
+        {{#compare status 4}}
+        {{else }}
+        <div class="wc-mask">已抢完</div>
+        {{/compare}}
+        <p class="f16 mgt-40">{{productName}}</p>
+        <p class="mgt-30 c-per">剩余金额{{residualAmount}}元</p>
+        <dl class="fl">
+            <dt>{{yield}}<span class="f16">%</span></dt>
+            <dd>历史年化利率</dd>
+        </dl>
+        <dl class="fr">
+            <dt>{{borrowDay}} <span class="f16">天</span></dt>
+            <dd>锁定期</dd>
+        </dl>
+    </div>
+    {{else}}
+    <div class="wp-card" data-href="productDetail.html?productId={{id}}">
+        <input type="hidden" value="{{id}}">
+        {{#compare status 4}}
+        {{else }}
+        <div class="wc-mask">已抢完</div>
+        {{/compare}}
+        <p class="f16 mgt-40">{{productName}}</p>
+        <p class="mgt-30 c-per">剩余金额{{residualAmount}}元</p>
+        <dl class="fl">
+            <dt>{{yield}}<span class="f16">%</span></dt>
+            <dd>历史年化利率</dd>
+        </dl>
+        <dl class="fr">
+            <dt>{{borrowDay}} <span class="f16">天</span></dt>
+            <dd>锁定期</dd>
+        </dl>
+    </div>
+    {{/if}}
+    {{/each}}
+
+
+    <div class="wp-card">
+        <div class="wc-mask">敬请期待</div>
+        <p class="f16 mgt-40">省心计划S180-001期</p>
+        <p class="mgt-30 c-per">剩余金额0.00元</p>
+        <dl class="fl">
+            <dt>8.00<span class="f16">%</span></dt>
+            <dd>历史年化利率</dd>
+        </dl>
+        <dl class="fr">
+            <dt>180 <span class="f16">天</span></dt>
+            <dd>锁定期</dd>
+        </dl>
+    </div>
+
+    <div class="wp-card mgr-0">
+        <div class="wc-mask">敬请期待</div>
+        <p class="f16 mgt-40">省心计划S365-001期</p>
+        <p class="mgt-30 c-per">剩余金额0.00元</p>
+        <dl class="fl">
+            <dt>9.00<span class="f16">%</span></dt>
+            <dd>历史年化利率</dd>
+        </dl>
+        <dl class="fr">
+            <dt>365 <span class="f16">天</span></dt>
+            <dd>锁定期</dd>
+        </dl>
+    </div>
+
+</script>
+
+
+</html>

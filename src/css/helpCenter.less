@@ -1,0 +1,317 @@
+@import "var.less";
+@c-main:#737880;
+.help-search{
+  background: url("../images-site/help-center-bj.jpg") center center no-repeat #4d98f7;
+  height: 280px;
+  overflow: hidden;
+  color: @fff;
+  a{
+    color: @fff;
+    margin-right: 15px;
+  }
+  .w1140{
+    padding-top: 40px;
+    text-align: center;
+    line-height: 2.8em;
+  }
+  .search-form{
+    width: 526px;
+    background: url("../images-site/jx.png") left top no-repeat;
+    position: relative;
+    margin: 10px auto 0;
+    padding-top: 50px;
+    .s-icon{
+      position: absolute;
+      background: url("../images-site/seach.png") no-repeat;
+      width: 28px;
+      height: 28px;
+      right: 12px;
+      top: 10px;
+      cursor: pointer;
+    }
+    input{
+      width: 400px;
+      border: 0;
+      position: absolute;
+      left: 20px;
+      top: 10px;
+      height: 27px;
+      line-height: 27px;
+    }
+  }
+}
+.help-card-list{
+  background: @fff;
+  padding: 20px 0 0px;
+  overflow: hidden;
+  zoom: 1;
+  .hd{
+    border-left: 2px solid @red3;
+    padding-left: 10px;
+    line-height: 14px;
+    height: 14px;
+    margin: 0 20px 40px;
+  }
+  .bd{
+    width: 1140px;
+    margin: 0 20px;
+    .card{
+      width: 230px;
+      padding: 15px 15px 25px;
+      background: #f1f3f6;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      border-radius: 6px ;
+      h3{
+        font-weight: normal;
+        font-size: 14px;
+        img{
+          margin-right: 5px;
+        }
+        a{
+          float: right;
+          font-size: 12px;
+          color: @color999;
+          &:hover{
+            color: @btnblue;
+          }
+        }
+      }
+      p{
+        margin-top: 25px;
+        a{
+          color: @c-main;
+          &:hover{
+            color: #4285f5;
+          }
+        }
+      }
+    }
+  }
+}
+.help-hot-list{
+  background: @fff;
+  padding: 20px 0 0px;
+  overflow: hidden;
+  zoom: 1;
+  .hd{
+    border-left: 2px solid @red3;
+    padding-left: 10px;
+    line-height: 14px;
+    height: 14px;
+    margin: 0 20px 10px;
+    a{
+      float: right;
+      font-size: 12px;
+      color: @color999;
+      &:hover{
+        color: @btnblue;
+      }
+    }
+  }
+  .bd{
+    overflow: hidden;
+    padding: 20px;
+    line-height: 40px;
+    p{
+      width: 48%;
+      float: left;
+      padding-left: 1%;
+      background: url("../images-site/list-dot.png") left center no-repeat;
+      a{
+        color: @c-main;
+        &:hover{
+        color: #4285f5;
+      }
+      }
+    }
+  }
+}
+.help-quick{
+  background: @fff;
+  padding: 20px 0 0px;
+  overflow: hidden;
+  zoom: 1;
+  .hd{
+    border-left: 2px solid @red3;
+    padding-left: 10px;
+    line-height: 14px;
+    height: 14px;
+    margin: 0 20px 30px;
+  }
+  .bd{
+    overflow: hidden;
+    padding: 20px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    dl{
+      width: 100px;
+      float: left;
+      text-align: center;
+      margin: 0 20px;
+      dd{
+        a {
+          color: @c-main;
+          &:hover {
+            color: #4285f5;
+          }
+        }
+        margin-top: 15px;
+      }
+    }
+    .line{
+      width: 108px;
+      float: left;
+      background: url("../images-site/l.png") no-repeat;
+      height: 20px;
+      margin: 28px 20px 0;
+    }
+  }
+}
+.help-contact{
+  background: @fff;
+  padding: 20px 0 40px;
+  zoom: 1;
+  .hd{
+    border-left: 2px solid @red3;
+    padding-left: 10px;
+    line-height: 14px;
+    height: 14px;
+    margin: 0 20px 30px;
+  }
+  .bd{
+    padding: 20px;
+    dl{
+      width: 220px;
+      float: left;
+      text-align: center;
+      margin: 0 20px;
+      dt{
+        float: left;
+        border-right: 1px solid @borderColor;
+        padding-right: 10px;
+        width: 40px;
+        height: 30px;
+        margin-top: 10px;
+      }
+      dd{
+        margin-left: 65px;
+        text-align: left;
+        color: @c-main;
+        line-height: 2em;
+        &.show-chat{
+          cursor: pointer;
+          position: relative;
+          &:hover{
+            img{
+              display: block;
+            }
+          }
+          img{
+            position: absolute;
+            border: 3px solid @fff;
+            border-radius: 3px;
+            top: -63px;
+            left: 60px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+.help-left-menu{
+  width: 215px;
+  float: left;
+  overflow: hidden;
+  background: @fff;
+  line-height: 50px;
+  text-align: center;
+  color: @color6c;
+  dt{
+    font-size: 18px;
+    color: @color333;
+  }
+  dd{
+    border-top: 1px solid #f1f3f6;
+    &.active,&:hover{
+      color: @fff;
+      background: @btnblue;
+      cursor: pointer;
+    }
+  }
+}
+.help-right-content{
+  overflow: hidden;
+  background: @fff;
+  padding: 20px;
+  &.mgl-240{
+    margin-left: 240px;
+  }
+  .hd{
+    line-height: 40px;
+    border-bottom: 2px solid @borderColor;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    &.tabnav{
+      font-size: 18px;
+      span{
+        color: @color666;
+        margin-right: 40px;
+        margin-left: 10px;
+        cursor: pointer;
+        &.active{
+          border-bottom: 3px solid @btnblue;
+          padding: 0 2px 4px;
+          cursor: default;
+        }
+      }
+    }
+  }
+  .bd{
+    padding-left: 20px;
+    .empty{
+      background: url("../images-site/none.png") center 100px no-repeat;
+      padding:260px 0 100px;
+      text-align: center;
+      color: #e1e3e8;
+      font-size: 18px;
+    }
+    dl{
+      margin-bottom: 10px;
+      dt{
+        border-bottom: 1px solid #f1f3f6;
+        line-height: 55px;
+        color: @color6c;
+        padding-left: 10px;
+        cursor: pointer;
+        background: url("../images-site/help-down-icon.png") right center no-repeat;
+        &.down{
+          background-image: url("../images-site/help-up-icon.png")
+        }
+      }
+      dd{
+        background: #f1f3f6;
+        margin-top: 30px;
+        margin-left: 10px;
+        padding: 10px 20px;
+        color: @color999;
+        border-radius: 6px;
+        line-height: 2em;
+        position: relative;
+        display: none;
+        &:before{
+          content: '';
+          width: 18px;
+          height: 11px;
+          background: url("../images-site/help-icon-01.png") no-repeat;
+          position: absolute;
+          top: -10px;
+          left: 30px;
+        }
+      }
+    }
+  }
+}

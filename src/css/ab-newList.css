@@ -1,0 +1,67 @@
+.newList .newList-top {
+  overflow: hidden;
+}
+.newList .newList-top .t-text {
+  background: url("../images-site/new-top.png") center center no-repeat;
+  height: 87px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 53px 0 0 90px;
+  text-align: left;
+}
+.newList .newList-top .t-text.industryTrends {
+  background-image: url("../images-site/industrytrends-top.png");
+}
+.newList .newList-content {
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding: 20px 40px 80px;
+  text-align: left;
+  line-height: 1.8em;
+}
+.newList .newList-content dl {
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 50px;
+}
+.newList .newList-content dl dt {
+  float: left;
+  width: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.newList .newList-content dl dd {
+  margin-left: 230px;
+  color: #666666;
+  cursor: pointer;
+}
+.newList .newList-content dl dd.title {
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.newList .newList-content dl dd.time {
+  color: #bbbbbb;
+  border-bottom: 1px solid #e1e3e8;
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.newList .newList-content dl dd.time span {
+  margin-left: 20px;
+}
+.newList .newList-content p {
+  line-height: 55px;
+}
+.newList .newList-content p a {
+  color: #666666;
+}
+.newList .newList-content p a:hover {
+  color: #4e7bd4;
+}
+.newList .newList-content p a .time {
+  float: right;
+  color: #999999;
+}

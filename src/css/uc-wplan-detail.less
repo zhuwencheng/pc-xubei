@@ -1,0 +1,77 @@
+@import "var.less";
+.uc-wplan-datail-bd{
+  overflow: hidden;
+  padding-top: 40px;
+  .ucwp-des{
+    padding-bottom: 30px;
+    border-bottom: 1px solid @borderColor;
+    ul{
+      overflow: hidden;
+      padding-bottom: 40px;
+      li{
+        width: 19%;
+        border-right: 1px dashed @borderColor;
+        float: left;
+        text-align: center;
+        font-size: 24px;
+        color: @blue2;
+        .des{
+          color: @color666;
+          margin-bottom: 20px;
+          font-size: 14px;
+        }
+        .yellow{
+          color: #f9b03a;
+        }
+        .status{
+          font-size: 18px;
+          color: #224d83;
+          margin-top: 23px;
+        }
+      }
+    }
+  }
+  //-animation:;
+  .ucwp-oper{
+    font-size: 12px;
+    line-height: 30px;
+    color: @color666;
+    dl{
+      float: right;
+      line-height: 45px;
+      padding-right: 90px;
+    }
+  }
+  .ucwp-list{
+    h3{
+      font-weight: normal;
+      line-height: 40px;
+      font-size: 14px;
+    }
+    .contract-menu{
+      position: relative;
+      span{
+        color: @blue1;
+        background: url("../images-site/arraw-blue.png") right center no-repeat;
+        padding-right: 15px;
+      }
+      .drop-menu{
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 35px;
+        overflow: hidden;
+        border: 1px solid @borderColor;
+        background: @fff;
+        padding: 0 5px;
+        text-align: center;
+        z-index: 10;
+        li{
+          width: 90px;
+          border-bottom: 1px dashed @borderColor;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

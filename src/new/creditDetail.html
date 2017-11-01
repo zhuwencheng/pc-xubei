@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="汉金所,汉信,互联网理财,互联网财富管理,安全理财,理财平台"/>
+    <meta name="description" content="汉金所(www.hanxinbank.com)-武汉国资委控股的互联网金融平台，为用户提供高收益、安全有保障的理财服务，让大众理财更安全、更便捷"/>
+    <title>项目详情-国资控股互联网金融平台，投资理财产品就选汉金所</title>
+    <link rel="icon" href="../images-site/favicon.ico"/>
+    <link href="../css-site/basic.css" rel="stylesheet" type="text/css">
+    <!--首页布局样式 start-->
+    <link rel="stylesheet" href="../css-site/productdetail.css" type="text/css"/>
+    <link rel="stylesheet" href="../css-site/pager.css" type="text/css"/>
+</head>
+<body>
+<div class="hx-component-header" data-des="组件" activeNav="1"></div>
+
+<div class="w-full product-detail">
+    <div class="w1140 afterclear">
+        <!--位置信息 start-->
+        <div class="pd-position" style="height: 50px">
+            <span class="fr" id="notice-risk">投资有风险 理财需谨慎</span>
+           <!-- <a href="worryPlan.html">我要出借</a> > <a href="creditList.html">转让区</a> > 项目详情-->
+        </div>
+        <!--位置信息 end-->
+
+        <!--头部详情 start-->
+        <div class="pd-card-detail">
+            <!--右侧区域 start-->
+
+            <!--可投资样式-->
+            <div class="fr pdc-fr">
+                <p>转让价格：<span id="transferAmount">0.00</span>元</p>
+
+                <p><a id="recharge" class="fr c-blue" href="#">充值</a>可用余额：<span id="spcanusemoney">0.00</span> 元</p>
+
+                <p><input id="investAmount" type="text" class="money-text" ></p>
+
+                <p>预期收益：<span id="textresultnumber" class="red2">0.00</span>元</p>
+
+                <p class="mgt-20 borrowcard"><span id="btntoInvest" class="btn btn-default">立即投资</span></p>
+            </div>
+           
+
+
+            <!--右侧区域 end-->
+            <div class="pdc-detail">
+                <h3>
+                    <a id="proDetail"><span  class="fr c-blue f12">原产品详情 &gt;</span></a>
+                    <span class="borrowTitle" id="spborrowtitle"></span><em>多重保障</em></h3>
+                <ul class="f34 c-blue mgt-20">
+                    <li class="f"><span id="spyield">0.00</span><span class="f16">%</span></li>
+                    <li class="s"><span id="spborrowday">0</span><span class="f16">天</span></li>
+                    <li class="t"><span id="creditValue">0.00</span><span class="f16">元</span></li>
+                </ul>
+                <ul class="mgt-10 c-666">
+                    <li class="f">实际预期年化</li>
+                    <li class="s">剩余期限</li>
+                    <li class="t">债权价值</li>
+                </ul>
+
+                <dl class="mgt-20 col-3">
+                    <dt>还款方式：一次性还本付息</dt>
+                    <dt>债权本金：<span id="transfernum" class="transfernum"></span>元
+                    </dt>
+                    <dt>折价：<span id="cuttransferprice"></span>元
+                    </dt>
+                    <dt>剩余时间：<span id="leftTime"></span></dt>
+                    <!--<dd>单账户最高可投金额：<span class="MaxInvest"></span>元-->
+                    <dt>起息日：<span id="valueDate"></span>
+                    </dt>
+                    <dt>原项目预期年化：<span id="yield"></span>%
+                    </dt>
+                </dl>
+            </div>
+        </div>
+        <!--头部详情 end-->
+
+        <!--左侧内容区域-->
+        <div class="pd-l-content fl">
+            <div class="hd">项目详情</div>
+            <div class="bd">
+            </div>
+        </div>
+        <!--左侧内容区域-->
+
+        <!--右侧内容区域-->
+        <div class="pd-r-content fr">
+            <div class="pd-record-list">
+                <div class="hd">加入记录</div>
+                <table>
+                    <tr>
+                        <th>加入名单</th>
+                        <th>加入金额(元)</th>
+                        <th>加入时间</th>
+                    </tr>
+                    <tbody id="investList"></tbody>
+
+
+                </table>
+                <div class="hx-pagination mgt-10 t-c" id="page1">
+
+                </div>
+            </div>
+            <!--下载图片-->
+            <div class="mgt-30">
+                <img src="../images-site/detail-phone.jpg">
+            </div>
+        </div>
+        <!--右侧内容区域-->
+    </div>
+</div>
+
+<div class="hx-component-footer" data-des="组件"></div>
+<div class="hx-component-siderbar" data-des="组件"></div>
+<script type="text/x-handlebars-template" id="notice-risk-tem">
+    <div class="notice-risk-tem">
+        <p style="text-indent: 2em;">任何通过汉金所进行的交易并不能避免以下风险的产生，汉金所不能也没有义务为如下风险负责：</p>
+
+        <p class="b">一、政策风险：</p>
+
+        <p style="text-indent: 2em;">因国家宏观政策和相关法律法规发生变化，影响平台服务的正常提供。</p>
+
+        <p class="b">二、信用风险：</p>
+
+        <p style="text-indent: 2em;">平台不对投资项目本金和收益提供任何保证或承诺。在发生最不利情况下（可能但并不一定发生），可能不利于用户实现项目的预期收益甚至本金遭受损失。</p>
+
+        <p class="b">三、市场风险：</p>
+
+        <p style="text-indent: 2em;">由于市场供求关系、利率变动、资产价值波动等不确定的未来市场变化，在发生最不利情况下（可能但并不一定发生），可能不利于用户实现项目的预期收益甚至本金遭受损失。</p>
+
+        <p class="b">四、提前终止风险：</p>
+
+        <p style="text-indent: 2em;">根据市场环境变化平台有权停止交易服务功能，在提前终止情形下，用户面临丧失投资机会及再投资的风险。</p>
+
+        <p class="b">五、信息传递风险：</p>
+
+        <p style="text-indent: 2em;">
+            平台将按协议约定进行信息披露，用户应充分关注并及时主动查询项目相关信息，如未及时查询，或由于通讯故障、系统故障以及其他不可抗力等因素的影响使得无法及时了解产品信息，由此产生责任和风险应由用户承担。</p>
+
+        <p class="b">六、不可抗力及意外事件风险：</p>
+
+        <p style="text-indent: 2em;">
+            包括但不限于自然灾害、金融市场危机、战争、黑客攻击、病毒感染等不能预见、不能避免、不能克服的不可抗力事件，对于由于不可抗力及意外事件风险导致的任何损失，用户须自行承担。</p>
+
+        <p class="b">七、流动性风险：</p>
+
+        <p style="text-indent: 2em;">
+            用户以债权转让方式通过平台进行转让的，平台不对债权转让完成的时间以及债权转让能否全部成功实现做出任何承诺，债权未成功转让的，用户面临资金不能变现、丧失其他投资机会的风险。</p>
+
+        <p style="margin-top: 20px;" class="b">特别提示：</p>
+
+        <p class="b" style="text-indent: 2em;">
+            前述风险提示不能穷尽全部风险及市场的全部情形。如您通过汉金所进行下一步操作，即表示认真阅读本风险提示并完全了解与接受，您应对自身决策和交易行为承担全部责任。</p>
+    </div>
+</script>
+<input id="hyield" type="hidden" >
+<input id="borrowType" type="hidden" >
+<input id="txtincrement" type="hidden" >
+<input id="txtminamount" type="hidden" >
+<form id="m_main_form" method="post">
+    <table class="" style="display:none;">
+        <tr>
+            <td>版本号-version</td>
+            <td><input type="hidden" id="version" name="version" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易代码-txCode</td>
+            <td><input type="hidden" id="txCode" name="txCode" value=""/></td>
+        </tr>
+        <tr>
+            <td>机构代码-instCode</td>
+            <td><input type="hidden" id="instCode" name="instCode" value=""/></td>
+        </tr>
+        <tr>
+            <td>银行代码-bankCode</td>
+            <td><input type="hidden" id="bankCode" name="bankCode" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易日期-txDate</td>
+            <td><input type="hidden" id="txDate" name="txDate" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易时间-txTime</td>
+            <td><input type="hidden" id="txTime" name="txTime" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易流水号-seqNo</td>
+            <td><input type="hidden" id="seqNo" name="seqNo" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易渠道-channel</td>
+            <td><input type="hidden" id="channel" name="channel" value=""/></td>
+        </tr>
+        <tr>
+            <td>电子账号-accountId</td>
+            <td><input type="hidden" id="accountId" name="accountId" value=""/></td>
+        </tr>
+        <tr>
+            <td>订单号-orderId</td>
+            <td><input type="hidden" id="orderId" name="orderId" value=""/></td>
+        </tr>
+        <tr>
+            <td>交易金额-txAmount</td>
+            <td><input type="hidden" id="txAmount" name="txAmount" value=""/></td>
+        </tr>
+        <tr>
+            <td>否冻结金额-frzFlag</td>
+            <td><input type="hidden" id="frzFlag" name="frzFlag" value=""/></td>
+        </tr>
+        <tr>
+            <td>金是否使用红包-bonusFlag</td>
+            <td><input type="hidden" id="bonusFlag" name="bonusFlag" value=""/></td>
+        </tr>
+        <tr>
+            <td>抵扣红包金额-bonusAmount</td>
+            <td><input type="hidden" id="bonusAmount" name="bonusAmount" value=""/></td>
+        </tr>
+        <tr>
+            <td>手续费-txFee</td>
+            <td><input type="hidden" id="txFee" name="txFee" value=""/></td>
+        </tr>
+        <tr>
+            <td>转让金额-tsfAmount</td>
+            <td><input type="hidden" id="tsfAmount" name="tsfAmount" value=""/></td>
+        </tr>
+        <tr>
+            <td>对手电子账号-forAccountId</td>
+            <td><input type="hidden" id="forAccountId" name="forAccountId" value=""/></td>
+        </tr>
+        <tr>
+            <td>原订单号-orgOrderId</td>
+            <td><input type="hidden" id="orgOrderId" name="orgOrderId" value=""/></td>
+        </tr>
+        <tr>
+            <td>原交易金额-orgTxAmount</td>
+            <td><input type="hidden" id="orgTxAmount" name="orgTxAmount" value=""/></td>
+        </tr>
+        <tr>
+            <td>标的号-productId</td>
+            <td><input type="hidden" id="productId" name="productId" value=""/></td>
+        </tr>
+        <tr>
+            <td>忘记密码跳转-forgotPwdUrl</td>
+            <td><input type="hidden" id="forgotPwdUrl" name="forgotPwdUrl" value=""/></td>
+        </tr>
+        <tr>
+            <td>前台跳转链接-retUrl</td>
+            <td><input type="hidden" id="retUrl" name="retUrl" value=""/></td>
+        </tr>
+        <tr>
+            <td>后台通知链接-notifyUrl</td>
+            <td><input type="hidden" id="notifyUrl" name="notifyUrl" value=""/></td>
+        </tr>
+        <tr>
+            <td>请求方保留-acqRes</td>
+            <td><input type="hidden" id="acqRes" name="acqRes" value=""/></td>
+        </tr>
+        <tr>
+            <td>签名-sign</td>
+            <td><input type="hidden" id="sign" name="sign" value=""/></td>
+        </tr>
+    </table>
+</form>
+</body>
+<!--Handlebars.js模版-->
+<script id="investTemplate" type="text/x-handlebars-template">
+    {{#each this}}
+    <tr>
+        <td class="{{formatIcon channel}}">{{UserName}}</td>
+        <td>{{formatAmount Amount}}</td>
+        <td>{{BorrowDate}}</td>
+    </tr>
+    {{/each}}
+</script>
+
+
+<script src="../js-site/require.min.js"></script>
+<script src="../js-site/re-config.js"></script>
+<script src="../js-site/creditDetail.js"></script>
+</html>

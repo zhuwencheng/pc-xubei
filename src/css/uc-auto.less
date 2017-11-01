@@ -1,0 +1,35 @@
+@import "var.less";
+.uc-auto{
+  min-height: 600px;
+  .des{
+    line-height: 40px;
+    padding: 0 20px;
+    background: @colorf5;
+    color: @color6c;
+  }
+  .uc-auto-c{
+    width: 690px;
+    margin: 20px auto;
+    border-bottom: 1px solid @borderColor;
+    padding-bottom: 50px;
+    .img-des{
+      background: url("../images-site/sq-bj01.png") no-repeat center center;
+      height: 160px;
+      &.active{
+        background-image: url("../images-site/sq-bj02.png");
+      }
+    }
+    .form{
+      .code-text{
+        width: 120px;
+        line-height: 38px;
+        border: 1px solid @borderColor;
+        margin: 0 10px;
+        padding: 0 10px;
+      }
+      #next{
+        width: 120px;
+      }
+    }
+  }
+}

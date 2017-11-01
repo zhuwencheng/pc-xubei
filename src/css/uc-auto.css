@@ -1,0 +1,32 @@
+.uc-auto {
+  min-height: 600px;
+}
+.uc-auto .des {
+  line-height: 40px;
+  padding: 0 20px;
+  background: #f5f5f5;
+  color: #666c75;
+}
+.uc-auto .uc-auto-c {
+  width: 690px;
+  margin: 20px auto;
+  border-bottom: 1px solid #e1e3e8;
+  padding-bottom: 50px;
+}
+.uc-auto .uc-auto-c .img-des {
+  background: url("../images-site/sq-bj01.png") no-repeat center center;
+  height: 160px;
+}
+.uc-auto .uc-auto-c .img-des.active {
+  background-image: url("../images-site/sq-bj02.png");
+}
+.uc-auto .uc-auto-c .form .code-text {
+  width: 120px;
+  line-height: 38px;
+  border: 1px solid #e1e3e8;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.uc-auto .uc-auto-c .form #next {
+  width: 120px;
+}

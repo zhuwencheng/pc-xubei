@@ -1,0 +1,427 @@
+@import "var.less";
+/*adv start*/
+
+/*banner start*/
+.hx-banner-wrapper{
+  overflow: hidden;
+  position: relative;
+  background: #0f5abf;
+  height: 320px;
+  .hb-recommend {
+    width: 280px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    margin-left: 220px;
+    top: 30px;
+    z-index: 1;
+    overflow: hidden;
+    .hb-recommend-mark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 280px;
+      height: 260px;
+      filter: alpha(opacity=20);
+      background: rgba(255, 255, 255, 0.2);
+      background: #fff \9;
+      z-index: -1;
+    }
+    .bd{
+      padding: 30px 35px 0;
+      color: @fff;
+      text-align: left;
+      .btn{
+        width: 188px;
+        background: #dd3c3c;
+        color: #fff;
+        line-height: 43px;
+        font-size: 16px;
+        .gift-icon{
+          background: url(../images-site/new-money-icon-hover.png) center center no-repeat;
+          width: 27px;
+          height: 27px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+        &:hover{
+          background-color: #cf2b2b;
+        }
+      }
+      a{
+        color: @fff;
+      }
+    }
+  }
+
+  /*滚动图片*/
+  .banner-section {
+    position: absolute;
+    width: 100%;
+    min-width: 1200px;
+    height: 320px;
+    overflow: hidden;
+    zoom: 1;
+    left: 0;
+    top: 0;
+    .prevnav{
+      position: absolute;
+      width: 24px;
+      height: 54px;
+      background: url("../images-site/home-icon.png") no-repeat 0 -1831px;
+      left: 50%;
+      top: 50%;
+      margin-top: -27px;
+      margin-left: -570px;
+      cursor: pointer;
+      &:hover{
+        background-position: 0 -1967px;
+      }
+    }
+    .nextnav{
+      position: absolute;
+      width: 24px;
+      height: 54px;
+      background: url("../images-site/home-icon.png") no-repeat 0 -1891px;
+      left: 50%;
+      top: 50%;
+      margin-top: -27px;
+      margin-left: 546px;
+      z-index: 10;
+      cursor: pointer;
+      &:hover{
+        background-position: 0 -2027px;
+      }
+    }
+    .controlnav{
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      padding: 2px 10px;
+      text-align: center;
+      background: rgba(0,0,0,0.2);
+      border-radius: 100px;
+      li{
+        cursor: pointer;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 8px;
+        height: 8px;
+        background: @fff;
+        border-radius: 5px;
+        border: 0;
+        margin: 0 3px;
+        transition: all .2s ease;
+        &.active{
+          width: 17px;
+        }
+      }
+    }
+    .scroll-wrapper {
+      overflow: hidden;
+      height: 100%;
+      width: 10000000px;
+      a {
+        float: left;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: center center no-repeat #ffffff;
+      }
+    }
+  }
+}
+/*banner end*/
+
+/*公告 start*/
+.hx-notice{
+  line-height: 39px;
+  overflow: hidden;
+  border-bottom: 1px dashed @borderColor;
+  color: @color999;
+  a{
+    color: @color999;
+    &:hover{
+      color: @bgblue2 !important;
+    }
+  }
+  .scroll-text{
+    background: url(../images-site/home-icon.png) 0 -629px no-repeat;
+    overflow: hidden;
+    padding-left: 30px;
+    height: 39px;
+  }
+}
+/*公告 end*/
+
+/*资历*/
+.hx-seniority{
+  padding: 20px 0;
+  overflow: hidden;
+  dl{
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+    overflow: hidden;
+    height: 80px;
+    dt{
+      width: 75px;
+      float: left;
+      background: center center no-repeat;
+      height: 80px;
+    }
+    dd{
+      margin-left: 90px;
+    }
+  }
+}
+/*资历*/
+
+/*导航样式1 start*/
+.hd-type1{
+  line-height: 60px;
+  height: 60px;
+  color: @color999;
+  .title{
+    font-size: 20px;
+    margin-right: 15px;
+    color: @color333;
+  }
+  a{
+    color: @color999;
+    &:hover{
+      color: @blue1;
+    }
+  }
+}
+/*导航样式1 end*/
+/*省心计划 start*/
+.wp-bd{
+  height: 260px;
+  .wp-card{
+    width: 210px;
+    height: 257px;
+    float: left;
+    cursor: pointer;
+    margin-right: 33px;
+    background: @fff;
+    border-top: 3px solid @blue1;
+    position: relative;
+    padding: 0 25px 0;
+    transition: all .5s ease;
+    .wc-mask{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url("../images-site/card-mask.png") no-repeat;
+      z-index: 1;
+      left: 0px;
+      top: 0;
+      line-height: 257px;
+      text-align: center;
+      font-size: 18px;
+      color: @fff;
+    }
+    &:hover{
+      box-shadow: 0px 5px 20px #cdd3db;
+      margin-top: -2px;
+    }
+    .wp-type{
+      position: absolute;
+      top: 0;
+      background: @blue1;
+      left: 50%;
+      margin-left: -35px;
+      line-height: 20px;
+      color: @fff;
+      width: 70px;
+      text-align: center;
+    }
+    .c-per{
+      color: #a1abbb;
+    }
+    dl{
+      width: 44%;
+      margin: 35px 2.5% 0;
+      text-align: center;
+      &.fr{
+        border-left: 1px dashed @borderColor;
+      }
+      dt{
+        color: @blue2;
+        font-size: 34px;
+      }
+      dd{
+        margin-top: 5px;
+        color: @color666;
+      }
+    }
+  }
+}
+/*省心计划 end*/
+
+/*散标直投 end*/
+.direct-dis{
+  .dd-bd{
+    background: @fff;
+  }
+  .list-table-w{
+    position: relative;
+    /*.blank{
+      position: absolute;
+      width: 30px;
+      background: #fff;
+      left: 0;
+      top: 55px;
+      bottom: 0;
+      z-index: 1;
+      &.r-blank{
+        right: 0;
+        left: auto;
+      }
+    }*/
+    table{
+      border-top: 3px solid @blue1;
+      width: 100%;
+      display: table;
+      border-collapse: collapse;
+      border-spacing: 0px;
+      letter-spacing: 0;
+      tr{
+        cursor: pointer;
+        &:hover{
+          td{
+            background: #f5f6f7;
+          }
+        }
+      }
+      .l-t-des{
+        font-size: 14px;
+        line-height: 21px;
+        border: 1px solid @blue1;
+        color: @blue1;
+        border-radius: 100px;
+        padding: 0 5px;
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+      th{
+        line-height: 52px;
+        background: #f6faff;
+        color: @color666;
+        font-weight: normal;
+        text-align: left;
+        padding: 0 25px;
+      }
+      td{
+        line-height: 105px;
+        height: 105px;
+        border-bottom: 1px solid @bordere;
+        background: @fff;
+        text-align: left;
+        font-size: 18px;
+        padding: 0 25px;
+        &.t-l{
+          padding-left: 30px;
+        }
+      }
+      .n-bd{
+        td{
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/*散标直投 end*/
+
+
+/*媒体&行业动态 start*/
+.hx-news-card{
+  width: 560px;
+  dl{
+    overflow: hidden;
+    background: @fff;
+    padding: 35px 20px;
+    dt{
+      float: left;
+      width: 200px;
+      img{
+        width: 200px;
+        height: 140px;
+      }
+    }
+    dd{
+      margin-left: 215px;
+      line-height: 28px;
+      overflow: hidden;
+      zoom: 1;
+      a{
+        height: 28px;
+        overflow: hidden;
+        margin-right: 85px;
+        display: block;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+      }
+      span{
+        float: right;
+        font-size: 12px;
+        color: @color999;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+/*媒体&行业动态 end*/
+/*合作伙伴 start*/
+.hx-partner{
+  .bd{
+    position: relative;
+    height: 80px;
+    background: @fff;
+    overflow: hidden;
+    zoom:1;
+    padding: 30px 0;
+    .lb-pre {
+      position: absolute;
+      width: 11px;
+      cursor: pointer;
+      height: 20px;
+      left: 20px;
+      top: 50%;
+      margin-top: -10px;
+      background: url(../images-site/home-icon.png) 0 -991px no-repeat;
+    }
+     .lb-next {
+      position: absolute;
+      width: 11px;
+      cursor: pointer;
+      height: 20px;
+      right: 20px;
+      top: 50%;
+      margin-top: -10px;
+      background: url(../images-site/home-icon.png) 0 -1038px no-repeat;
+    }
+    .wrapper {
+      overflow: hidden;
+      width: 1040px;
+      margin-left: 50px;
+    }
+    ul {
+      width: 10000px;
+      height: 80px;
+      li {
+        width: 188px;
+        height: 80px;
+        float: left;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+/*合作伙伴 start*/

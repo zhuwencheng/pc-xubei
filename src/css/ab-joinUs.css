@@ -1,0 +1,49 @@
+.joinUs .joinUs-top {
+  overflow: hidden;
+}
+.joinUs .joinUs-top .t-text {
+  background: url("../images-site/join-us-top.png") center center no-repeat;
+  height: 87px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 53px 0 0 90px;
+  text-align: left;
+}
+.joinUs .joinUs-content {
+  padding: 30px 30px 80px;
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  background: #ffffff;
+  color: #666666;
+  line-height: 2em;
+}
+.joinUs .joinUs-content h3 {
+  display: inline-block;
+  *display: inline;
+  border-bottom: 2px solid #82a7f0;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 20px;
+  zoom: 1;
+}
+.joinUs .joinUs-content h4 {
+  display: table;
+  line-height: 20px;
+  background: #d9e7fd;
+  padding: 0px 5px;
+  *display: inline;
+  clear: both;
+  font-weight: normal;
+  color: #333333;
+}
+.joinUs .joinUs-content .title {
+  color: #333333;
+  margin-top: 10px;
+}
+.joinUs .joinUs-content .item {
+  border-bottom: 1px dashed #e1e3e8;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}

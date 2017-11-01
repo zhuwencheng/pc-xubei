@@ -1,0 +1,27 @@
+.newDetail {
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding: 40px 80px 80px;
+}
+.newDetail .title {
+  line-height: 70px;
+  text-align: center;
+}
+.newDetail .time {
+  text-align: left;
+  color: #999999;
+  font-size: 12px;
+  border-bottom: 1px solid #e1e3e8;
+  padding: 25px 0 10px;
+}
+.newDetail .bd {
+  overflow: hidden;
+  zoom: 1;
+  line-height: 2em;
+  color: #666666;
+  padding: 30px 0;
+}
+.newDetail .bd p {
+  text-indent: 2em;
+}

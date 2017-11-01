@@ -1,0 +1,268 @@
+body,
+#m_main_form {
+  background: #f5f5f5;
+}
+.mgb-40 {
+  margin-bottom: 40px;
+}
+.hxuc-position {
+  padding-top: 20px;
+  line-height: 30px;
+  height: 30px;
+  text-align: right;
+  overflow: hidden;
+  font-size: 12px;
+  color: #666666;
+}
+.hxuc-center {
+  padding: 30px 20px 40px;
+  overflow: hidden;
+  zoom: 1;
+  /* 左侧菜单区域*/
+  /* 左侧菜单区域*/
+  /*右侧菜单区域*/
+  /*右侧菜单区域*/
+}
+.hxuc-center .hxuc-leftsidebar {
+  width: 220px;
+  overflow: hidden;
+  zoom: 1;
+  /*头像区域*/
+  /*头像区域*/
+  /*菜单*/
+  /*菜单*/
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper {
+  background: #f7f7f7;
+  padding: 20px 10px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .btn {
+  border: 1px solid #f4b757;
+  background: #f4b757;
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .btn:hover,
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .btn:active {
+  border-color: #e9962b;
+  background: #e9962b;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head {
+  overflow: hidden;
+  zoom: 1;
+  padding: 0 10px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dt {
+  width: 82px;
+  height: 82px;
+  background: url("../../images-site/user-head-bj.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd {
+  margin-left: 100px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level {
+  margin-left: 95px;
+  border-radius: 100px;
+  line-height: 23px;
+  width: 35px;
+  background: url("../../images-site/hxuc-level1.png") 0 center no-repeat;
+  padding-left: 28px;
+  color: #666666;
+  cursor: pointer;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level2 {
+  background-image: url("../../images-site/hxuc-level2.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level3 {
+  background-image: url("../../images-site/hxuc-level3.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level4 {
+  background-image: url("../../images-site/hxuc-level4.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level5 {
+  background-image: url("../../images-site/hxuc-level5.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level6 {
+  background-image: url("../../images-site/hxuc-level6.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-head dd.user-level.level7 {
+  background-image: url("../../images-site/hxuc-level7.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matter-msg {
+  background: #fcf8e3;
+  border: #fae1af 1px solid;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 34px;
+  padding: 0 5px;
+  color: #666666;
+  position: relative;
+  bottom: -10px;
+  zoom: 1;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matter-msg .uc_close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999999;
+  width: 24px;
+  background: url("../../images-site/hxuc-close-icon.png") center center no-repeat;
+  display: inline-block;
+  height: 34px;
+  vertical-align: middle;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matter-msg .arrow {
+  background: url("../../images-site/hxuc-tip-arraw.png") center center no-repeat;
+  width: 14px;
+  height: 8px;
+  position: absolute;
+  left: 54px;
+  bottom: -7px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters {
+  padding: 20px 10px 0;
+  overflow: hidden;
+  zoom: 1;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  margin: 0 5px;
+  display: block;
+  float: left;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.phone {
+  background: url("../../images-site/hxuc-phone.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.phone.active {
+  background-image: url("../../images-site/hxuc-phone-h.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.person {
+  background: url("../../images-site/hxuc-peson.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.person.active {
+  background-image: url("../../images-site/hxuc-peson-h.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.psd {
+  background: url("../../images-site/hxuc-psd.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.psd.active {
+  background-image: url("../../images-site/hxuc-psd-h.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.card {
+  background: url("../../images-site/hxuc-card.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.card.active {
+  background-image: url("../../images-site/hxuc-card-h.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.mes {
+  background: url("../../images-site/hxuc-mes.png") center center no-repeat;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .user-matters li.mes.active {
+  background-image: url("../../images-site/hxuc-mes-h.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .tool-btn {
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .tool-btn span {
+  line-height: 26px;
+  width: 60px;
+  font-size: 14px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .tool-btn span.y-border-btn {
+  background: #fff;
+  color: #f4b757;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-head-wrapper .tool-btn span.y-border-btn:hover {
+  color: #e9962b;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu {
+  margin-top: 20px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt {
+  line-height: 50px;
+  padding-left: 30px;
+  cursor: pointer;
+  height: 50px;
+  background: #eeeeee url("../../images-site/hxuc-down.png") 185px center no-repeat;
+  margin-bottom: 1px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt.up {
+  background-image: url("../../images-site/hxuc-up.png");
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  width: 25px;
+  background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+  margin-right: 5px;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt span.p1 {
+  background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt span.p2 {
+  background: url("../../images-site/hxuc-menu-02.png") no-repeat left center;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt span.p3 {
+  background: url("../../images-site/hxuc-menu-03.png") no-repeat left center;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dt span.p4 {
+  background: url("../../images-site/hxuc-menu-04.png") no-repeat left center;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dd {
+  margin-bottom: 1px;
+  height: 40px;
+  overflow: hidden;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dd.active a {
+  background-color: #a2bdf4;
+  color: #ffffff;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dd a {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: 65px;
+  background: #f7f7f7;
+  color: #666666;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dd a:hover {
+  background-color: #a2bdf4;
+  color: #ffffff;
+}
+.hxuc-center .hxuc-leftsidebar .hxuc-left-menu dd a .hxuc-num {
+  line-height: 15px;
+  background: #e9524b;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 100px;
+  margin-left: 5px;
+  text-indent: 0;
+  font-size: 12px;
+}
+.hxuc-center .hxuc-rightsidebar {
+  position: relative;
+  zoom: 1;
+  margin-left: 240px;
+}
+.hxuc-center .hxuc-rightsidebar:before,
+.hxuc-center .hxuc-rightsidebar:after {
+  content: " ";
+  display: table;
+}
+.hxuc-center .hxuc-rightsidebar:after {
+  clear: both;
+}

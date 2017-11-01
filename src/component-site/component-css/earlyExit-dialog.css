@@ -1,0 +1,30 @@
+.exitdialog {
+  padding: 30px 90px 0;
+  color: #666c75;
+}
+.exitdialog .exit-form {
+  line-height: 40px;
+}
+.exitdialog .exit-form label {
+  width: 250px;
+  display: inline-block;
+  padding-right: 25px;
+  text-align: right;
+}
+.exitdialog .exit-form input[type="text"] {
+  line-height: 38px;
+  border: 1px solid #e1e3e8;
+  width: 120px;
+  padding: 0 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.exitdialog .btn-wrapper .btn {
+  width: 110px;
+  margin: 0 20px;
+}
+.exitdialog .des {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 1.8em;
+}

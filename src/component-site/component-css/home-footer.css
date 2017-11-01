@@ -1,0 +1,198 @@
+.hx-footer {
+  padding: 25px 0 0px;
+  margin-top: 100px;
+  overflow: hidden;
+  background: #434c59;
+  color: #a1abbb;
+  zoom: 1;
+}
+.hx-footer .left-menu {
+  width: 400px;
+  float: left;
+  overflow: hidden;
+}
+.hx-footer .left-menu dl {
+  line-height: 26px;
+  font-size: 12px;
+  width: 100px;
+  overflow: hidden;
+  float: left;
+}
+.hx-footer .left-menu dt {
+  color: #dedede;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.hx-footer .left-menu dd a {
+  color: #a1abbb;
+  margin-right: 26px;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+.hx-footer .left-menu dd a:hover {
+  color: #666c75;
+}
+.hx-footer .focus a:hover {
+  color: #999999;
+}
+.hx-footer .focus i {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../images-site/home-icon.png") 0 0 no-repeat;
+  vertical-align: middle;
+  margin-right: 6px;
+  transition: all 0.2s ease;
+}
+.hx-footer .focus .qq-max i {
+  background-position: 0 0;
+}
+.hx-footer .focus .qq-max:hover i {
+  background-position: 0 -38px;
+}
+.hx-footer .focus .wechat-max i {
+  background-position: 0 -77px;
+}
+.hx-footer .focus .wechat-max:hover i {
+  background-position: 0 -115px;
+}
+.hx-footer .focus .sina-max i {
+  background-position: 0 -154px;
+}
+.hx-footer .focus .sina-max:hover i {
+  background-position: 0 -192px;
+}
+.hx-footer .focus .dlapp-max i {
+  background-position: 0 -231px;
+}
+.hx-footer .focus .dlapp-max:hover i {
+  background-position: 0 -269px;
+}
+.hx-footer .fr-contact {
+  margin-left: 500px;
+}
+.hx-footer .fr-contact .contact-us {
+  width: 210px;
+  float: left;
+  text-align: right;
+  line-height: 2em;
+  font-size: 12px;
+}
+.hx-footer .fr-contact dl {
+  float: right;
+  margin-left: 20px;
+  width: 120px;
+  text-align: center;
+}
+.hx-footer .fr-contact dl dd {
+  margin-top: 10px;
+}
+.hx-statement {
+  border-top: 1px solid #575f6b;
+  line-height: 56px;
+  margin-top: 20px;
+  clear: both;
+  padding-bottom: 20px;
+}
+/*hx-ui-siedbar start*/
+.hx-ui-siedbar {
+  width: 40px;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  display: block;
+  z-index: 1001;
+}
+.hx-ui-siedbar li {
+  position: relative;
+  background: #ffffff;
+  /*margin-bottom: 1px;*/
+  margin-top: -1px;
+  display: block;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e1e3e8;
+  border-right: 0;
+}
+.hx-ui-siedbar li:hover a {
+  width: 68px;
+  padding-left: 15px;
+  background: #4e7cd4;
+}
+.hx-ui-siedbar em {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.hx-ui-siedbar a {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-size: 12px;
+  padding-right: 40px;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+  width: 0;
+  transition: all 0.4s ease;
+}
+.hx-ui-siedbar .online em {
+  background: url("../../images-site/home-icon.png") #ffffff 9px -1377px no-repeat;
+}
+.hx-ui-siedbar .online:hover em {
+  background: url("../../images-site/home-icon.png") #4e7cd4 9px -1434px no-repeat;
+}
+.hx-ui-siedbar .faq em {
+  background: url("../../images-site/home-icon.png") #ffffff 9px -1492px no-repeat;
+}
+.hx-ui-siedbar .faq:hover em {
+  background: url("../../images-site/home-icon.png") #4e7cd4 9px -1549px no-repeat;
+}
+.hx-ui-siedbar .qr-code em {
+  background: url("../../images-site/home-icon.png") #ffffff 9px -1606px no-repeat;
+}
+.hx-ui-siedbar .qr-code:hover a {
+  width: 102px;
+  height: 130px;
+  background: #fff;
+}
+.hx-ui-siedbar .qr-code:hover em {
+  background: url("../../images-site/home-icon.png") #4e7cd4 9px -1663px no-repeat;
+}
+.hx-ui-siedbar .qr-code:hover .arraw {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -7px;
+  top: 20px;
+  border: 4px solid transparent;
+  border-left-color: #4e7cd4;
+}
+.hx-ui-siedbar .qr-code dl {
+  position: absolute;
+  background: #4e7cd4;
+  left: 0;
+  top: 0;
+  width: 84px;
+  padding: 14px 14px 0;
+}
+.hx-ui-siedbar .qr-code dl img {
+  width: 100%;
+}
+.hx-ui-siedbar .qr-code dl dd {
+  line-height: 28px;
+  height: 28px;
+}
+.hx-ui-siedbar .to-top em {
+  background: url("../../images-site/home-icon.png") #ffffff 12px -1722px no-repeat;
+}
+.hx-ui-siedbar .to-top:hover em {
+  background: url("../../images-site/home-icon.png") #4e7cd4 12px -1779px no-repeat;
+}
+/*hx-ui-siedbar start*/

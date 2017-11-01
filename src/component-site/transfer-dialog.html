@@ -1,0 +1,62 @@
+<div class="transferdialog">
+    <table class="hx-table-type1">
+        <tr>
+            <th width="30%">产品名称</th>
+            <th width="19%">剩余本金</th>
+            <th width="17%">原项目预期年化</th>
+            <th width="17%">剩余期限</th>
+            <th width="17%">还款方式</th>
+        </tr>
+        <tr>
+            <td title="{{borrowInfoTitle}}">
+                {{borrowInfoTitle}}
+            </td>
+            <td title="{{amount}}">{{amount}}元</td>
+            <td title="{{yield}}">{{yield}}%</td>
+            <td title="{{transferDays}}">{{transferDays}}天</td>
+            <td>一次性还本付息</td>
+        </tr>
+    </table>
+    <div class="exit-form">
+        <p><label>债权价值<span class="notice" data-title="债权价值=转让本金+截止转让日已产生利息；截止转让日已产生利息=转让本金*年化率*债权持有天数/365"
+                            data-tooltip=""></span></label><span><em class="need-data" data-title="transferCost"
+                                                                     title="{{transferCost}}">{{transferCost}}</em><span></span> 元</span>
+        </p>
+
+        <p><label>折价金额<span class="notice" data-title="该债权转让人申请转让时自设的折让价，即对债权价值进行折让转出"
+                            data-tooltip=""></span></label><span><em class="need-data" data-title="cutTransferPrice"
+                                                                     title="{{cutTransferPrice}}">{{cutTransferPrice}}</em> 元</span></p>
+
+        <p><label>折让率<span class="notice" data-title="转让人申请转让时自设折价金额对应的折让率；折让率=折价金额/债权本金*100%"
+                           data-tooltip=""></span></label><span><em class="need-data" data-title="discount"
+                                                                    title="{{discount}}">{{discount}}</em>%</span></p>
+
+        <p><label>转让价格<span class="notice" data-title="即债权交易金额，转让价格=债权价值-折价金额；目前仅支持全部债权一对一转让"
+                            data-tooltip=""></span></label><span class="red"><em class="need-data"
+                                                                                 data-title="buyAmount"
+                                                                                 title="{{buyAmount}}">{{buyAmount}}</em> 元</span><span
+                style="margin-left: 30px;">(实际支付)</span></p>
+
+        <p><label>计息本金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><span><em class="need-data" data-title="amount"
+                                                                      title="{{amount}}">{{amount}}</em> 元</span></p>
+
+        <p><label>剩余本息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><span><em class="need-data" data-title="platformOutAmout"
+                                                                      title="{{platformOutAmout}}">{{platformOutAmout}}</em> 元</span></p>
+
+        <p><label>预期收益<span class="notice" data-title="预期收益=剩余本息-转让价格" data-tooltip=""></span></label><span><em
+                class="need-data" data-title="prospective" title="{{prospective}}">{{prospective}}</em> 元</span></p>
+
+        <p><label>实际预期年化<span class="notice" data-title="购买转让项目后预期能获得的收益率" data-tooltip=""></span></label><span><em
+                class="need-data" data-title="cost" title="{{cost}}">{{cost}}</em>%</span></p>
+
+        <p class="t-c"><label class="auto"><input type="checkbox" checked> 我已阅读并同意<a
+                href="http://www.hanxinbank.com/contract/20160512-09.html" target="_blank" style="color: #82a7f0">《 转让协议
+            》</a></label></p>
+
+        <p class="error-bd" style="display: none"></p>
+    </div>
+    <!--<div class="mgt-10 t-c btn-wrapper">
+        <span id="buyTransfer" class="btn btn-default">确认</span>
+    </div>-->
+
+</div>

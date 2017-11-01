@@ -1,0 +1,263 @@
+@import "../var";
+body,#m_main_form{
+  background: @colorf5;
+}
+.mgb-40{
+  margin-bottom: 40px;
+}
+.hxuc-position{
+  padding-top: 20px;
+  line-height: 30px;
+  height: 30px;
+  text-align: right;
+  overflow: hidden;
+  font-size: 12px;
+  color: @color666;
+}
+.hxuc-center{
+  padding: 30px 20px 40px;
+  overflow: hidden;
+  zoom:1;
+ /* 左侧菜单区域*/
+  .hxuc-leftsidebar{
+    width: 220px;
+    overflow: hidden;
+    zoom: 1;
+    /*头像区域*/
+    .hxuc-head-wrapper{
+      .btn{
+        border: 1px solid @coloryellor2;
+        background: @coloryellor2;
+        cursor: pointer;
+        display: inline-block;
+        color: @fff;
+        text-align: center;
+        border-radius: 4px;
+      }
+      .btn:hover,.btn:active{
+        border-color: @coloryellor2Hover;
+        background: @coloryellor2Hover;
+      }
+      background: @colorf7;
+      padding: 20px 10px;
+      .user-head{
+        overflow: hidden;
+        zoom: 1;
+        padding: 0 10px;
+        dt{
+          width: 82px;
+          height: 82px;
+          background: url("../../images-site/user-head-bj.png") center center no-repeat;
+        }
+        dd{
+          margin-left: 100px;
+          line-height: 30px;
+          font-size: 12px;
+          &.user-level{
+            margin-left: 95px;
+            border-radius: 100px;
+            line-height: 23px;
+            width: 35px;
+            background: url("../../images-site/hxuc-level1.png") 0 center no-repeat;
+            padding-left: 28px;
+            color: @color666;
+            cursor: pointer;
+            &.level2{
+              background-image: url("../../images-site/hxuc-level2.png")
+            }
+            &.level3{
+              background-image: url("../../images-site/hxuc-level3.png")
+            }
+            &.level4{
+              background-image: url("../../images-site/hxuc-level4.png")
+            }
+            &.level5{
+              background-image: url("../../images-site/hxuc-level5.png")
+            }
+            &.level6{
+              background-image: url("../../images-site/hxuc-level6.png")
+            }
+            &.level7{
+              background-image: url("../../images-site/hxuc-level7.png")
+            }
+          }
+        }
+      }
+      .user-matter-msg{
+        background: @tipbj;
+        border: @tipborder2 1px solid;
+        border-radius: 4px;
+        position: relative;
+        font-size: 12px;
+        line-height: 34px;
+        padding: 0 5px;
+        color: @color666;
+        position: relative;
+        bottom: -10px;
+        zoom: 1;
+        .uc_close{
+          float: right;
+          font-size: 24px;
+          cursor: pointer;
+          color: @color999;
+          width: 24px;
+          background: url("../../images-site/hxuc-close-icon.png") center center no-repeat;
+          display: inline-block;
+          height: 34px;
+          vertical-align: middle;
+        }
+        .arrow{
+          background: url("../../images-site/hxuc-tip-arraw.png") center center no-repeat;
+          width: 14px;
+          height: 8px;
+          position: absolute;
+          left: 54px;
+          bottom: -7px;
+        }
+      }
+      .user-matters{
+        padding: 20px 10px 0;
+        overflow: hidden;
+        zoom: 1;
+        li{
+          width: 25px;
+          height: 25px;
+          background: @fff;
+          margin: 0 5px;
+          display: block;
+          float: left;
+          &.phone{
+            background: url("../../images-site/hxuc-phone.png") center center no-repeat;
+            &.active{
+              background-image: url("../../images-site/hxuc-phone-h.png");
+            }
+          }
+          &.person{
+            background: url("../../images-site/hxuc-peson.png") center center no-repeat;
+            &.active{
+              background-image: url("../../images-site/hxuc-peson-h.png");
+            }
+          }
+          &.psd{
+            background: url("../../images-site/hxuc-psd.png") center center no-repeat;
+            &.active{
+              background-image: url("../../images-site/hxuc-psd-h.png");
+            }
+          }
+          &.card{
+            background: url("../../images-site/hxuc-card.png") center center no-repeat;
+            &.active{
+              background-image: url("../../images-site/hxuc-card-h.png");
+            }
+          }
+          &.mes{
+            background: url("../../images-site/hxuc-mes.png") center center no-repeat;
+            &.active{
+              background-image: url("../../images-site/hxuc-mes-h.png");
+            }
+          }
+        }
+      }
+      .tool-btn{
+        overflow: hidden;
+        zoom: 1;
+        margin-top: 25px;
+        padding: 0 20px;
+        span{
+          line-height: 26px;
+          width: 60px;
+          font-size: 14px;
+          &.y-border-btn{
+            background: #fff;
+            color: @coloryellor2;
+            &:hover{
+              color: @coloryellor2Hover;
+            }
+          }
+        }
+      }
+    }
+    /*头像区域*/
+    /*菜单*/
+    .hxuc-left-menu{
+      margin-top: 20px;
+      dt{
+        line-height: 50px;
+        padding-left: 30px;
+        cursor: pointer;
+        height: 50px;
+        background: #eee url("../../images-site/hxuc-down.png") 185px center no-repeat;
+        margin-bottom: 1px;
+        &.up{
+          background-image: url("../../images-site/hxuc-up.png");
+        }
+        span{
+          display: inline-block;
+          vertical-align: middle;
+          height: 50px;
+          width: 25px;
+          background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+          margin-right: 5px;
+          &.p1{
+            background: url("../../images-site/hxuc-menu-01.png") no-repeat left center;
+          }
+          &.p2{
+            background: url("../../images-site/hxuc-menu-02.png") no-repeat left center;
+          }
+          &.p3{
+            background: url("../../images-site/hxuc-menu-03.png") no-repeat left center;
+          }
+          &.p4{
+            background: url("../../images-site/hxuc-menu-04.png") no-repeat left center;
+          }
+        }
+      }
+      dd{
+        margin-bottom: 1px;
+        height: 40px;
+        overflow: hidden;
+        &.active{
+          a{
+            background-color: @bgblue;
+            color: @fff;
+          }
+        }
+        a{
+          display: block;
+          width: 100%;
+          line-height: 40px;
+          height: 40px;
+          overflow: hidden;
+          text-indent: 65px;
+          background: @colorf7;
+          color: @color666;
+          &:hover{
+            background-color: @bgblue;
+            color: @fff;
+          }
+          .hxuc-num{
+            line-height: 15px;
+            background: @red2;
+            color: @fff;
+            display: inline-block;
+            padding: 0 5px;
+            border-radius: 100px;
+            margin-left: 5px;
+            text-indent: 0;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    /*菜单*/
+  }
+  /* 左侧菜单区域*/
+  /*右侧菜单区域*/
+  .hxuc-rightsidebar{
+    position: relative;
+    zoom: 1;
+    margin-left: 240px;
+    .clearfix();
+  }
+  /*右侧菜单区域*/
+}

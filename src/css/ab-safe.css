@@ -1,0 +1,55 @@
+.safe .safe-top {
+  overflow: hidden;
+  font-size: 20px;
+}
+.safe .safe-top .t-text {
+  background: url("../images-site/safe-top.png") center center no-repeat;
+  height: 110px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 30px 0 0 60px;
+}
+.safe .safe-bd {
+  padding: 60px 100px;
+  overflow: hidden;
+  zoom: 1;
+}
+.safe .safe-bd dl {
+  overflow: hidden;
+  clear: both;
+  color: #737880;
+  margin-bottom: 70px;
+}
+.safe .safe-bd dl dt {
+  width: 170px;
+  height: 170px;
+  float: left;
+  background: url("../images-site/safe-ad01.png") center center no-repeat;
+}
+.safe .safe-bd dl dt.a2 {
+  background-image: url("../images-site/safe-ad02.png");
+}
+.safe .safe-bd dl dt.a3 {
+  background-image: url("../images-site/safe-ad03.png");
+}
+.safe .safe-bd dl dt.a4 {
+  background-image: url("../images-site/safe-ad04.png");
+}
+.safe .safe-bd dl dt.a5 {
+  background-image: url("../images-site/safe-ad05.png");
+}
+.safe .safe-bd dl dt.a6 {
+  background-image: url("../images-site/safe-ad06.jpg");
+}
+.safe .safe-bd dl dd {
+  margin-left: 240px;
+  line-height: 1.8em;
+}
+.safe .safe-bd dl dd.title {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.safe .safe-bd dl dd li {
+  background: url("../images-site/red-dot.jpg") 0px 9px no-repeat;
+  text-indent: 18px;
+}

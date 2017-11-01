@@ -1,0 +1,66 @@
+@import "../../css-site/var.less";
+.transferdialog{
+  padding: 30px 30px 0;
+  color: @color6c;
+  .hx-table-type1{
+    table-layout: fixed;
+    th{
+      font-weight: bold;
+    }
+    td{
+      text-align: center;
+      .texthidden();
+    }
+  }
+  .exit-form{
+    line-height: 28px;
+    font-size: 12px;
+    margin-top: 30px;
+    .error-bd{
+      line-height: 30px;
+      height: 30px;
+      text-align: center;
+      color: @red3;
+    }
+    input[type=checkbox]{
+      vertical-align: middle;
+    }
+    .notice {
+      background: url("../../images-site/14X14notice-icon.png") no-repeat;
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      overflow: hidden;
+      vertical-align: middle;
+      margin: 0 2px;
+      margin-top: -1px;
+      cursor: pointer;
+    }
+    label{
+      width: 250px;
+      display: inline-block;
+      padding-right: 25px;
+      text-align: right;
+      &.auto{
+        width: auto;
+      }
+    }
+    input[type="text"]{
+      line-height: 38px;
+      border: 1px solid @borderColor;
+      width: 120px;
+      padding: 0 10px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+  }
+  .btn-wrapper{
+    padding-top: 14px;
+    border-top: 1px dashed @borderColor;
+    .btn{
+      width: 110px;
+      margin: 0 20px;
+    }
+  }
+
+}

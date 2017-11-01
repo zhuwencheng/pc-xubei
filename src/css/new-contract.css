@@ -1,0 +1,31 @@
+body {
+  background: #ffffff !important;
+}
+.contract {
+  padding: 20px;
+  color: #666;
+  line-height: 1.8em;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.contract h3 {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.contract p {
+  margin-top: 10px;
+  text-indent: 2em;
+}
+.contract .c-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px 0;
+}
+.contract .c-table td {
+  line-height: 30px;
+  padding: 0 5px;
+  border: 1px solid #e1e1e1;
+  height: 30px;
+}

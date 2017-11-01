@@ -1,0 +1,335 @@
+@import "var.less";
+.uc-unit{
+  text-align: right;
+  line-height: 30px;
+  padding-top: 10px;
+  color: @color666;
+  font-size: 12px;
+}
+
+/*资产 start*/
+.hxuc-assets{
+  overflow: hidden;
+  background: @fff;
+  padding: 20px;
+  .hxuc-tip{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url("../images-site/hxuc-answ.png") center center no-repeat;
+    vertical-align: middle;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .cash-detail{
+    width: 530px;
+    float: left;
+    .hd{
+      line-height: 30px;
+      font-size: 16px;
+      .show-money{
+        width: 31px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        background: url("../images-site/hxuc-yj.png") center center no-repeat;
+        margin-left: 30px;
+        cursor: pointer;
+        &.active{
+          background-image: url("../images-site/hxuc-yj-h.png");
+        }
+      }
+    }
+    .line-box{
+      padding-bottom: 15px;
+      border-bottom: dashed 1px @bordere1;
+      dt{
+        font-size: 34px;
+        color: @blue1;
+        /*font-weight: bold;*/
+      }
+      dd{
+        float: right;
+        margin-left: 40px;
+        padding-top: 10px;
+        color: @color666;
+        line-height: 35px;
+        height: 30px;
+        overflow: hidden;
+      }
+      .num{
+        margin-left: 5px;
+      }
+    }
+    .bot-cash{
+      padding-top: 20px;
+      line-height: 35px;
+      li{
+        height: 35px;
+        color: @color666;
+        .num{
+          width: 90px;
+          display: inline-block;
+          color: @color333;
+        }
+        .btn{
+          width: 30px;
+          margin-right: 10px;
+        }
+        .mgr-10{
+          margin-right: 10px;
+        }
+        .freeze{
+          color: @colorbbb;
+          font-size: 12px;
+        }
+        .tool{
+          color: @linkblue;
+          a{
+            color: @linkblue;
+            vertical-align: middle;
+            margin: 0 4px;
+          }
+        }
+      }
+      .label{
+        color: @color666;
+        width: 85px;
+        display: inline-block;
+      }
+    }
+  }
+  .ext-assets{
+    margin-left: 550px;
+    line-height: 50px;
+    background: #f4f6fa;
+    padding: 10px 0;
+    .clock{
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url("../images-site/hxuc-clock.png") no-repeat;
+      margin: 0 5px;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    li{
+      padding-left: 55px;
+      color: @color666;
+      &:hover{
+        color: @linkblue;
+        cursor: pointer;
+      }
+      .btn{
+        margin-left: 30px;
+        position: relative;
+        width: 40px;
+        i{
+          font-style: normal;
+        }
+        .intergral-num{
+          position: absolute;
+          top: -30px;
+          left: 18px;
+          color: @red2;
+          display: none;
+        }
+      }
+      &.coupon{
+        background: url("../images-site/hxuc-yhq.png") 18px center no-repeat;
+        &.active{
+          background-image: url("../images-site/hxuc-yhq-h.png");
+        }
+      }
+      &.inc{
+        background: url("../images-site/hxuc-jxq.png") 18px center no-repeat;
+        &.active{
+          background-image: url("../images-site/hxuc-jxq-h.png");
+        }
+      }
+      &.integral{
+        background: url("../images-site/hxuc-jf.png") 18px center no-repeat;
+        &.active{
+          background-image: url("../images-site/hxuc-jf-h.png");
+        }
+      }
+      &.fri{
+        background: url("../images-site/hxuc-fri.png") 18px center no-repeat;
+        &.active{
+          background-image: url("../images-site/hxuc-fri-h.png");
+        }
+      }
+    }
+  }
+
+}
+/*资产 start*/
+
+/*资金占比*/
+.re-allocators{
+  padding: 10px 30px;
+  .hd{
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .bd{
+    overflow: hidden;
+    .left-allocator{
+      width: 250px;
+      ul{
+        line-height: 35px;
+        color: @bluegray;
+        padding: 20px 0 0 0;
+        em{
+          width: 10px;
+          height: 10px;
+          vertical-align: middle;
+          display: inline-block;
+          margin-right: 10px;
+          border-radius: 100px;
+          background: @borderblue;
+          margin-top: -3px;
+          *margin-top: 0px;
+          /*颜色配置*/
+          &.c1{
+            background: #1373ee;
+          }
+          &.c2{
+            background: #5a9bee;
+          }
+          &.c3{
+            background: #05b3db;
+          }
+          &.c4{
+            background: #fcb926;
+          }
+          &.c5{
+            background: #55c8c6;
+          }
+          &.c6{
+            background: #55c8c6;
+          }
+          &.c7{
+            background: #82a7f0;
+          }
+          /*颜色配置*/
+        }
+      }
+    }
+    .content{
+      margin-left: 250px;
+      height: 280px;
+    }
+  }
+}
+
+/*回款记录*/
+.payment-records{
+  padding: 10px 30px;
+  .hd{
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .bd{
+    padding-bottom: 20px;
+    overflow: hidden;
+    .leftcalendar{
+      width: 590px;
+      overflow: hidden;
+    }
+    .payment-des{
+      margin-left: 620px;
+      dl{
+        padding-top: 30px;
+        dd{
+          line-height: 30px;
+          border-bottom: 1px dashed @borderColor;
+          padding: 5px 0;
+        }
+        dt{
+          margin-top: 90px;
+          line-height: 26px;
+          color: @color666;
+          em{
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            margin-right: 10px;
+            background: @borderblue;
+            border-radius: 100px;
+            vertical-align: middle;
+            &.end{
+              background: @d7;
+            }
+            &.will{
+              background: @coloryellor3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*
+推荐标*/
+.recom-shop{
+  padding: 10px 30px;
+
+  .hd{
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .bd{
+    overflow: hidden;
+    zoom: 1;
+    padding: 20px 0;
+    .shop-box{
+      width: 218px;
+      padding: 40px 20px 40px;
+      overflow: hidden;
+      zoom: 1;
+      float: left;
+      margin-right: 30px;
+      border: 1px solid @borderColor;
+      border-top:3px solid @blue1 ;
+      text-align: left;
+      cursor: pointer;
+      &:hover{
+        box-shadow: 0 10px 20px #c8cfd8;
+      }
+      h3{
+        font-size: 16px;
+        font-weight: normal;
+      }
+      .shop-des{
+        margin-top: 35px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        .line{
+          position: absolute;
+          width: 0px;
+          border-left: 1px dashed @borderColor;
+          height: 100%;
+          left: 50%;
+          top: 0;
+        }
+        dl{
+          width: 50%;
+          dt{
+            color: @blue1;
+            font-size: 34px;
+            line-height: 1.4em;
+          }
+          dd{
+            color: @color6c;
+            line-height: 1.4em;
+          }
+        }
+      }
+    }
+  }
+}

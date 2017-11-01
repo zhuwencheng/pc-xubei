@@ -1,0 +1,138 @@
+.bankCustody .bankCustody-top {
+  overflow: hidden;
+  font-size: 20px;
+}
+.bankCustody .bankCustody-top .t-text {
+  background: url("../images-site/yhcg-top.png") center center no-repeat;
+  height: 110px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 30px 0 0 60px;
+}
+.bankCustody .bc-img-des {
+  padding: 30px 40px 20px;
+  text-align: center;
+}
+.bankCustody .bc-img-des .hd {
+  background: url("../images-site/yhcg-t-bg.png") left center no-repeat;
+  font-size: 30px;
+  color: #f2a900;
+  padding-left: 75px;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0 auto;
+}
+.bankCustody .bc-img-des .bd {
+  background: url("../images-site/yhcg-des-img.png") center center no-repeat;
+  height: 370px;
+  margin-top: 20px;
+}
+.bankCustody .bc-advantage {
+  padding: 30px 40px 20px;
+  text-align: center;
+}
+.bankCustody .bc-advantage .hd {
+  background: url("../images-site/yhcg-t-bg.png") left center no-repeat;
+  font-size: 30px;
+  color: #f2a900;
+  padding-left: 75px;
+  line-height: 50px;
+  height: 50px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0 auto;
+}
+.bankCustody .bc-advantage .bd {
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 40px;
+  color: #737880;
+  line-height: 1.8em;
+}
+.bankCustody .bc-advantage .bd dl {
+  float: left;
+  overflow: hidden;
+  width: 50%;
+  text-align: left;
+  margin-top: 40px;
+}
+.bankCustody .bc-advantage .bd dl dt {
+  width: 170px;
+  height: 170px;
+  background: center center no-repeat;
+  float: left;
+}
+.bankCustody .bc-advantage .bd dl dt.a1 {
+  background-image: url("../images-site/yhcg-ys-01.png");
+}
+.bankCustody .bc-advantage .bd dl dt.a2 {
+  background-image: url("../images-site/yhcg-ys-02.png");
+}
+.bankCustody .bc-advantage .bd dl dt.a3 {
+  background-image: url("../images-site/yhcg-ys-03.png");
+}
+.bankCustody .bc-advantage .bd dl dt.a4 {
+  background-image: url("../images-site/yhcg-ys-04.png");
+}
+.bankCustody .bc-advantage .bd dl dd {
+  margin-left: 190px;
+  margin-right: 30px;
+}
+.bankCustody .bc-advantage .bd dl dd.title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.bankCustody .bc-industry {
+  padding: 30px 40px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.bankCustody .bc-industry .hd {
+  background: url("../images-site/yhcg-t-bg.png") left center no-repeat;
+  font-size: 30px;
+  color: #f2a900;
+  padding-left: 75px;
+  zoom: 1;
+  display: inline-block;
+  *display: inline;
+  margin: 0 auto;
+}
+.bankCustody .bc-industry .bd {
+  background: #f5f9fc;
+  padding: 65px 0px 65px 18px;
+  overflow: hidden;
+  zoom: 1;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.bankCustody .bc-industry .bd .box {
+  background: url("../images-site/yhcg-yhjx-01.jpg") center center no-repeat;
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 16px;
+  position: relative;
+  text-align: left;
+}
+.bankCustody .bc-industry .bd .box.a2 {
+  background-image: url("../images-site/yhcg-yhjx-02.jpg");
+}
+.bankCustody .bc-industry .bd .box.a3 {
+  background-image: url("../images-site/yhcg-yhjx-03.jpg");
+}
+.bankCustody .bc-industry .bd .box p {
+  line-height: 1.8em;
+  bottom: 20px;
+  width: 90%;
+  left: 5%;
+  position: absolute;
+  color: #666c75;
+  font-size: 16px;
+}
+.bankCustody .bc-industry .bd .box p .yellor {
+  color: #f4b63f;
+}

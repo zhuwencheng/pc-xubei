@@ -1,0 +1,58 @@
+.team .joinUs-top {
+  overflow: hidden;
+}
+.team .joinUs-top .t-text {
+  background: url("../images-site/team-top.png") center center no-repeat;
+  height: 87px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 53px 0 0 90px;
+  text-align: left;
+}
+.team .team-content {
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding: 20px 40px 80px;
+  text-align: center;
+  line-height: 1.8em;
+}
+.team .team-content h3 {
+  display: inline-block;
+  *display: inline;
+  border-bottom: 2px solid #82a7f0;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 20px;
+  zoom: 1;
+  margin: 0 auto;
+}
+.team .team-content h4 {
+  text-align: left;
+  margin-top: 25px;
+  font-weight: normal;
+  color: #666666;
+  text-indent: 2em;
+}
+.team .team-content dl {
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 50px;
+}
+.team .team-content dl dt {
+  float: left;
+  width: 190px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.team .team-content dl dd {
+  margin-left: 230px;
+  color: #666666;
+  width: 350px;
+}
+.team .team-content dl dd.title {
+  color: #333333;
+  margin-bottom: 10px;
+}

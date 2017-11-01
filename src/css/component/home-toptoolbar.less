@@ -1,0 +1,187 @@
+@import "../var";
+
+.hx-toptoolbar {
+  line-height: 36px;
+  height: 36px;
+  background: #f5f6f7;
+  color: @color999;
+  z-index: 10;
+  position: relative;
+  .share-dialog {
+    display: none;
+    position: absolute;
+    width: 120px;
+    border: 1px solid @borderColor2;
+    border-radius: 4px;
+    line-height: 25px;
+    padding: 10px 19px;
+    top: 32px;
+    left: 50%;
+    margin-left: -80px;
+    z-index: 10;
+    background: #fff;
+    .qr-img {
+      margin-bottom: 10px;
+    }
+    .arrow-up {
+      position: absolute;
+      width: 13px;
+      height: 9px;
+      left: 50%;
+      margin-left: -7.5px;
+      top: -9px;
+      background: url("../../images-site/arraw-up.png") no-repeat;
+    }
+  }
+  .share-box {
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    display: inline-block;
+    background: url("../../images-site/home-icon.png") 0 0 no-repeat;
+    vertical-align: middle;
+    /*margin-top: -4px;*/
+    cursor: pointer;
+    position: relative;
+    &:hover .share-dialog, .share-dialog:hover {
+      display: block;
+    }
+  }
+  .wechat-mini {
+    background-position: 0 -384px;
+    transition: background 0.2s ease-in-out;
+    &:hover {
+      background-position: 0 -409px;
+    }
+  }
+  .sina-mini {
+    background-position: 0 -334px;
+    transition: background 0.2s ease-in-out;
+    &:hover {
+      background-position: 0 -359px;
+    }
+  }
+  .qq-mini {
+    background-position: 0 -436px;
+    transition: background 0.2s ease-in-out;
+    &:hover {
+      background-position: 0 -461px;
+    }
+  }
+  .phone-mini {
+    background-position: 0 -278px;
+    transition: background 0.2s ease-in-out;
+    &:hover {
+      background-position: 0 -309px;
+    }
+  }
+  .c-333:hover {
+    color: @linkblue !important;
+  }
+  a {
+    color: @color999;
+    &:hover {
+      color: @linkblue;
+    }
+  }
+  .quick-link {
+    a {
+      margin: 0 8px;
+      &.new-msg{
+        background: url(../../images-site/new-msg.png) left center no-repeat;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+.hx-nav-wrapper {
+  height: 90px;
+  z-index: 9;
+  position: relative;
+}
+
+.fixedNav {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10000;
+  border-bottom: 1px solid @borderColor;
+}
+
+.hx-nav {
+  padding: 10px 0;
+  zoom: 1;
+  .hx-logo {
+    background: url("../../images-site/hx-logo.png") no-repeat;
+    width: 375px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    text-indent: 1000px;
+  }
+  .nav-menu {
+    padding: 24px 0;
+    .link {
+      font-size: 16px;
+      display: inline-block;
+      *display: inline;
+      margin-left: 30px;
+      padding-right: 15px;
+      position: relative;
+      .down-icon {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background: url("../../images-site/down.png") center center no-repeat;
+        transition: all .3s;
+      }
+      .hot-icon {
+        display: inline-block;
+        background: url("../../images-site/hot-bj.png");
+        width: 26px;
+        text-align: center;
+        color: @fff;
+        padding-bottom: 3px;
+        line-height: 18px;
+        font-size: 12px;
+        position: absolute;
+        right: -15px;
+        top: -12px;
+      }
+      &:hover {
+        color: @bgblue2;
+        .down-icon {
+          transform: rotate(180deg)
+        }
+        .child-menu {
+          display: block;
+        }
+      }
+      .child-menu {
+        position: absolute;
+        display: none;
+        left: -15%;
+        top: -7px;
+        padding: 35px 0 0;
+        border: 1px solid @colorf3;
+        width: 100%;
+        a {
+          display: block;
+          line-height: 30px;
+          text-align: center;
+          font-size: 14px;
+          color: @color999;
+          background: @fff;
+          &:hover {
+            background: @bgblue2;
+            color: @fff;
+          }
+        }
+      }
+    }
+    .active {
+      color: @linkblue;
+    }
+  }
+}
